@@ -1,11 +1,11 @@
 
-<header class="header">
+<header class="header home-header">
     <div class="container header__container">
         <img src="img/home/logo.png" alt="logo" class="header__image">
         <nav class="nav-wrapper">
             <ul class="nav">
                 <li class="nav__item">
-                    <a href="news.php" class="nav__link">новости</a>
+                    <a href="" class="nav__link">новости</a>
                 </li>
                 <li class="nav__item">
                     <a href="" class="nav__link">салон</a>

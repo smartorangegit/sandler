@@ -49,9 +49,21 @@ gulp.task('home-js', function() {
 });
 // Home end
 
+// News start
+gulp.task('news-js', function() {
+	return gulp.src([
+		'src/js/news.js',
+		])
+	.pipe(concat('news.min.js'))
+	.pipe(uglify())
+	.pipe(gulp.dest('dist/js'));
+});
+// Home end
+
 gulp.task('js', [
 	'common-js',
 	'home-js',
+	'news-js',
 	], function() {
 	return gulp.src([
 		'src/js/common.js',
