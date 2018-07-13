@@ -11,100 +11,154 @@
     <?php include_once('includes/header.php');?>
     <?php include_once('includes/svg-code.php');?>
     
-    <section class="open-news-top">
-        
-    </section>
+    <div class="open-news-top">
+        <img src="img/open-news/open-news.jpg" alt="image" class="open-news-top__image">
+    </div>
 
     <main class="main line-bottom">
-        <div class="container news__container">
-            <ul class="news-list">
-                <li class="news-list__item">
-                    <div class="news-list-image">
-                        <div class="news-list__date-wrap">
-                            <p class="news-list__date">5 мая 2018 г.</p>
-                        </div>
-                        <img src="img/news/news-1.jpg" alt="image" class="news-list-image__image">
-                    </div>
-                    <h2 class="news-list__heading">Каждая 5</h2>
-                    <a href="#" class="button_black news-list__button">ПОДРОБНЕЕ</a>
-                </li>
-                <li class="news-list__item">
-                    <div class="news-list-image">
-                        <div class="news-list__date-wrap">
-                            <p class="news-list__date">5 мая 2018 г.</p>
-                        </div>
-                        <img src="img/news/news-2.jpg" alt="image" class="news-list-image__image">
-                    </div>
-                    <h2 class="news-list__heading">Каждая 5я СПА- процедура в пода...</h2>
-                    <a href="#" class="button_black news-list__button">ПОДРОБНЕЕ</a>
-                </li>
-                <li class="news-list__item">
-                    <div class="news-list-image">
-                        <div class="news-list__date-wrap">
-                            <p class="news-list__date">5 мая 2018г.</p>
-                        </div>
-                        <img src="img/news/news-3.jpg" alt="image" class="news-list-image__image">
-                    </div>
-                    <h2 class="news-list__heading">Каждая 5я СПА- процедура в пода...</h2>
-                    <a href="#" class="button_black news-list__button">ПОДРОБНЕЕ</a>
-                </li>
-                <li class="news-list__item">
-                    <div class="news-list-image">
-                        <div class="news-list__date-wrap">
-                            <p class="news-list__date">5 мая 2018 г.</p>
-                        </div>
-                        <img src="img/news/news-4.jpg" alt="image" class="news-list-image__image">
-                    </div>
-                    <h2 class="news-list__heading">Каждая 5я СПА- процедура в пода...</h2>
-                    <a href="#" class="button_black news-list__button">ПОДРОБНЕЕ</a>
-                </li>
-            </ul>
-        </div>
-        <div class="pagination-wrap">
-            <ul class="pagination">
-                <li class="pagination__item">
-                    <a href="#" class="pagination__link">1</a>
-                </li>
-                <li class="pagination__item">
-                    <a href="#" class="pagination__link">2</a>
-                </li>
-                <li class="pagination__item">
-                    <a href="#" class="pagination__link">3</a>
-                </li>
-                <li class="pagination__item">
-                    <a href="#" class="pagination__link">4</a>
-                </li>
-                <li class="pagination__item">
-                    <a href="#" class="pagination__link">. . .</a>
-                </li>
-                <li class="pagination__item">
-                    <a href="#" class="pagination__link pagination__link_active">8</a>
-                </li>
-                <li class="pagination__item">
-                    <a href="#" class="pagination__link">9</a>
-                </li>
-                <li class="pagination__item">
-                    <a href="#" class="pagination__link">10</a>
-                </li>
-            </ul>
-            <button class="pagination__button pagination__button_prev">
-                <span class="pagination__button-text">Prev <snap class="pagination__number">4</snap></span>
-                <svg class="pagination__button-icon long-arrow_revers"><use xlink:href="#long-arrow"></use></svg>
-            </button>
-            <button class="pagination__button pagination__button_next">
-                <span class="pagination__button-text">Next <snap class="pagination__number">4</snap></span>
-                <svg class="pagination__button-icon"><use xlink:href="#long-arrow"></use></svg>
-            </button>
-        </div>
+        <div class="open-news__container">
+            <div class="open-news__heading-wrap">
+                <p class="open-news__date">04.05.18</p>
+                <h1 class="open-news__heading">КРАСКА ДЛЯ ВОЛОС  LOREAL BRILLIANT – И ВЫ СИЯЕТЕ </h1>
+                <ul class="social_little social_little_absolute">
+                    <li class="social_little__item">
+                        <a href="#" class="social_little__item">
+                            <svg class="social_little__icon"><use xlink:href="#facebook"></use></svg>
+                        </a>
+                    </li>
+                    <li class="social_little__item">
+                        <a href="#" class="social_little__item">
+                            <svg class="social_little__icon"><use xlink:href="#pinterest"></use></svg>
+                        </a>
+                    </li>
+                    <li class="social_little__item">
+                        <a href="#" class="social_little__item">
+                            <svg class="social_little__icon"><use xlink:href="#instagram"></use></svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
 
-        <div class="news-subscribe">
-            <span class="news-subscribe__text">Подписаться на новости и акции</span>
-            <button href="#" class="button_black news-subscribe__button">Подписаться</button>
+            <div class="open-news-content">
+                <div class="open-news-content__info">
+                    <p class="open-news-content__text">
+                        Задача организации, в особенности же консультация с широким активом, а также свежий взгляд на привычные вещи - безусловно открывает новые горизоЗадача организации, в особенности же консультация с широким активом, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для кластеризации усилий.
+                    </p>
+                    <img src="img/open-news/news-1.jpg" alt="image" class="open-news-content__image">
+                    <p class="open-news-content__text">
+                        Предварительные выводы неутешительны: укрепление и развитие внутренней структуры создает необходимость включения в производственный план целого ряда внеочередных мероприятий с учетом комплекса кластеризации усилий. В частности, внедрение современных методик обеспечивает широкому кругу (специалистов) участие в формировании своевременного выполнения сверхзадачи. Следует отметить, что семантический разбор внешних противодействий способствует подготовке и реализации стандартных подходов. В частности, синтетическое тестирование предопределяет высокую востребованность вывода текущих активов.
+                    </p>
+                    <img src="img/open-news/news-2.jpg" alt="image" class="open-news-content__image">
+                    <p class="open-news-content__text">
+                        А также явные признаки победы институциализации лишь добавляют фракционных разногласий и представлены в исключительно положительном свете. Следует отметить, что сплоченность команды профессионалов играет определяющее значение для прогресса профессионального сообщества. Прежде всего, перспективное планирование создает необходимость включения в производственный план целого ряда внеочередных мероприятий с учетом комплекса существующих финансовых и административных условий. Семантический разбор внешних противодействий способствует повышению качества кластеризации усилий. Мы вынуждены отталкиваться от того, что постоянное информационно-пропагандистское обеспечение нашей деятельности предоставляет широкие возможности для инновационных методов управления процессами. Не следует, однако, забывать, что высокотехнологичная концепция общественного уклада в значительной степени обусловливает важность распределения внутренних резервов и ресурсов.
+                    </p>
+                    <div class="open-news-content-share">
+                        <span class="open-news-content-share__text">ПОНРАВИЛАСЬ НОВОСТЬ? ПОДЕЛИСЬ С ДРУЗЬЯМИ:</span>
+                        <ul class="social_little">
+                            <li class="social_little__item">
+                                <a href="#" class="social_little__item">
+                                    <svg class="social_little__icon"><use xlink:href="#facebook"></use></svg>
+                                </a>
+                            </li>
+                            <li class="social_little__item">
+                                <a href="#" class="social_little__item">
+                                    <svg class="social_little__icon"><use xlink:href="#pinterest"></use></svg>
+                                </a>
+                            </li>
+                            <li class="social_little__item">
+                                <a href="#" class="social_little__item">
+                                    <svg class="social_little__icon"><use xlink:href="#instagram"></use></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <aside class="sidebar open-news-content__sidebar">
+                    <h2 class="sidebar__heading">ВАМ ТАКЖЕ МОЖЕТ БЫТЬ ИНТЕРЕСНО:</h2>
+                    <ul class="similar-news-list">
+                        <li class="similar-news-list__item">
+                            <div class="similar-news-list-image">
+                                <div class="similar-news-list__date-wrap">
+                                    <p class="similar-news-list__date">5 мая 2018 г.</p>
+                                </div>
+                                <img src="img/news/news-1.jpg" alt="image" class="similar-news-list-image__image">
+                            </div>
+                            <h2 class="news-list__heading">Каждая 5</h2>
+                            <a href="open-news.php" class="button_black news-list__button">ПОДРОБНЕЕ</a>
+                        </li>
+                        <li class="similar-news-list__item">
+                            <div class="similar-news-list-image">
+                                <div class="similar-news-list__date-wrap">
+                                    <p class="similar-news-list__date">5 мая 2018 г.</p>
+                                </div>
+                                <img src="img/news/news-1.jpg" alt="image" class="similar-news-list-image__image">
+                            </div>
+                            <h2 class="news-list__heading">Каждая 5</h2>
+                            <a href="open-news.php" class="button_black news-list__button">ПОДРОБНЕЕ</a>
+                        </li>
+                        <li class="similar-news-list__item">
+                            <div class="similar-news-list-image">
+                                <div class="similar-news-list__date-wrap">
+                                    <p class="similar-news-list__date">5 мая 2018 г.</p>
+                                </div>
+                                <img src="img/news/news-1.jpg" alt="image" class="similar-news-list-image__image">
+                            </div>
+                            <h2 class="news-list__heading">Каждая 5</h2>
+                            <a href="open-news.php" class="button_black news-list__button">ПОДРОБНЕЕ</a>
+                        </li>
+                    </ul>
+                    <div class="sidebar__link-wrap">
+                        <a href="#" class="sidebar__link">ЧИТАТЬ ЕЩЕ ПО ЭТОЙ ТЕМЕ</a>
+                    </div>
+                </aside>
+            </div>
+
+            <div class="lastest-news">
+                <h2 class="lastest-news__heading">ПОСЛЕДНИЕ НОВОСТИ:</h2>
+                <ul class="similar-news-list lastest-news-list">
+                    <li class="similar-news-list__item lastest-news-list__item">
+                        <div class="similar-news-list-image">
+                            <div class="similar-news-list__date-wrap">
+                                <p class="similar-news-list__date">5 мая 2018 г.</p>
+                            </div>
+                            <img src="img/news/news-1.jpg" alt="image" class="similar-news-list-image__image">
+                        </div>
+                        <h2 class="news-list__heading">Каждая 5</h2>
+                        <a href="open-news.php" class="button_black news-list__button">ПОДРОБНЕЕ</a>
+                    </li>
+                    <li class="similar-news-list__item lastest-news-list__item">
+                        <div class="similar-news-list-image">
+                            <div class="similar-news-list__date-wrap">
+                                <p class="similar-news-list__date">5 мая 2018 г.</p>
+                            </div>
+                            <img src="img/news/news-1.jpg" alt="image" class="similar-news-list-image__image">
+                        </div>
+                        <h2 class="news-list__heading">Каждая 5</h2>
+                        <a href="open-news.php" class="button_black news-list__button">ПОДРОБНЕЕ</a>
+                    </li>
+                    <li class="similar-news-list__item lastest-news-list__item">
+                        <div class="similar-news-list-image">
+                            <div class="similar-news-list__date-wrap">
+                                <p class="similar-news-list__date">5 мая 2018 г.</p>
+                            </div>
+                            <img src="img/news/news-1.jpg" alt="image" class="similar-news-list-image__image">
+                        </div>
+                        <h2 class="news-list__heading">Каждая 5</h2>
+                        <a href="open-news.php" class="button_black news-list__button">ПОДРОБНЕЕ</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="news-subscribe">
+                <span class="news-subscribe__text">Подписаться на новости и акции</span>
+                <button href="#" class="button_black news-subscribe__button">Подписаться</button>
+            </div>
         </div>
     </main>
     
 
-    <?/*php include_once('includes/footer.php');*/?> 
+    <?php include_once('includes/footer.php');?> 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/common.min.js"></script>

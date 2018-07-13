@@ -58,7 +58,7 @@ gulp.task('news-js', function() {
 	.pipe(uglify())
 	.pipe(gulp.dest('dist/js'));
 });
-// Home end
+// News end
 
 gulp.task('js', [
 	'common-js',

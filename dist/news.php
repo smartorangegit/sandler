@@ -61,7 +61,7 @@
                         <img src="img/news/news-1.jpg" alt="image" class="news-list-image__image">
                     </div>
                     <h2 class="news-list__heading">Каждая 5</h2>
-                    <a href="#" class="button_black news-list__button">ПОДРОБНЕЕ</a>
+                    <a href="open-news.php" class="button_black news-list__button">ПОДРОБНЕЕ</a>
                 </li>
                 <li class="news-list__item">
                     <div class="news-list-image">
@@ -71,7 +71,7 @@
                         <img src="img/news/news-2.jpg" alt="image" class="news-list-image__image">
                     </div>
                     <h2 class="news-list__heading">Каждая 5я СПА- процедура в пода...</h2>
-                    <a href="#" class="button_black news-list__button">ПОДРОБНЕЕ</a>
+                    <a href="open-news.php" class="button_black news-list__button">ПОДРОБНЕЕ</a>
                 </li>
                 <li class="news-list__item">
                     <div class="news-list-image">
@@ -81,7 +81,7 @@
                         <img src="img/news/news-3.jpg" alt="image" class="news-list-image__image">
                     </div>
                     <h2 class="news-list__heading">Каждая 5я СПА- процедура в пода...</h2>
-                    <a href="#" class="button_black news-list__button">ПОДРОБНЕЕ</a>
+                    <a href="open-news.php" class="button_black news-list__button">ПОДРОБНЕЕ</a>
                 </li>
                 <li class="news-list__item">
                     <div class="news-list-image">
@@ -91,7 +91,7 @@
                         <img src="img/news/news-4.jpg" alt="image" class="news-list-image__image">
                     </div>
                     <h2 class="news-list__heading">Каждая 5я СПА- процедура в пода...</h2>
-                    <a href="#" class="button_black news-list__button">ПОДРОБНЕЕ</a>
+                    <a href="open-news.php" class="button_black news-list__button">ПОДРОБНЕЕ</a>
                 </li>
             </ul>
         </div>
