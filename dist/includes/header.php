@@ -13,13 +13,13 @@
                     <a href="salon.php" class="nav__link">салон</a>
                 </li>
                 <li class="nav__item">
-                    <a href="" class="nav__link">spa</a>
+                    <a href="spa.php" class="nav__link">spa</a>
                 </li>
                 <li class="nav__item">
-                    <a href="" class="nav__link">фитнес-клуб</a>
+                    <a href="fitness.php" class="nav__link">фитнес-клуб</a>
                 </li>
                 <li class="nav__item">
-                    <a href="" class="nav__link">фото студия</a>
+                    <a href="photo-studio.php" class="nav__link">фото студия</a>
                 </li>
                 <li class="nav__item">
                     <a href="" class="nav__link">ресторан</a>

@@ -9,7 +9,7 @@
 </head>
 <body>
     <?php include_once('includes/header.php');?>
-    <?php include_once('includes/svg-code.php');?>
+    <?php include_once('includes/svg-sprite.php');?>
     
     <section class="top">
         <div class="page-heading-wrap">

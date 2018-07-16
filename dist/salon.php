@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.min.css">
-    <title>News</title>
+    <title>Salon</title>
 </head>
 <body>
     <?php include_once('includes/header.php');?>
-    <?php include_once('includes/svg-code.php');?>
+    <?php include_once('includes/svg-sprite.php');?>
     
     <section class="top">
         <div class="page-heading-wrap">
@@ -70,11 +70,11 @@
                         </li>
                     </ul>
                     <div class="page-block-1__button-wrap">
-                        <a href="#hair" class="button_black page-block-1__button">
+                        <a href="#" class="button_black page-block-1__button">
                             Записаться on-line
                         </a>
-                        <a href="#" class="button_black page-block-1__button
-                        page-block-1__button_black js-page-block-1__button">
+                        <a href="#hair" class="button_black page-block-1__button
+                        page-block-1__button_black js-anchor__button">
                             Наши специалисты
                         </a>
                         <div class="page-block-1__button-line"></div>
@@ -130,7 +130,7 @@
                             Записаться on-line
                         </a>
                         <a href="#visage" class="button_black page-block-1__button
-                        page-block-1__button_black js-page-block-1__button">
+                        page-block-1__button_black js-anchor__button">
                             Наши специалисты
                         </a>
                         <div class="page-block-1__button-line"></div>
@@ -161,11 +161,11 @@
                         </li>
                     </ul>
                     <div class="page-block-1__button-wrap">
-                        <a href="#nails" class="button_black page-block-1__button">
+                        <a href="#" class="button_black page-block-1__button">
                             Записаться on-line
                         </a>
-                        <a href="#" class="button_black page-block-1__button
-                        page-block-1__button_black js-page-block-1__button">
+                        <a href="#nails" class="button_black page-block-1__button
+                        page-block-1__button_black js-anchor__button">
                             Наши специалисты
                         </a>
                         <div class="page-block-1__button-line"></div>
@@ -202,7 +202,7 @@
                             Записаться on-line
                         </a>
                         <a href="#stylist" class="button_black page-block-1__button
-                        page-block-1__button_black js-page-block-1__button">
+                        page-block-1__button_black js-anchor__button">
                             Наши специалисты
                         </a>
                         <div class="page-block-1__button-line"></div>
@@ -384,5 +384,6 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/common.min.js"></script>
+<script src="js/salon.min.js"></script>
 </body>
 </html>

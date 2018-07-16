@@ -60,10 +60,46 @@ gulp.task('news-js', function() {
 });
 // News end
 
+// salon start
+gulp.task('salon-js', function() {
+	return gulp.src([
+		'src/js/salon.js',
+		])
+	.pipe(concat('salon.min.js'))
+	.pipe(uglify())
+	.pipe(gulp.dest('dist/js'));
+});
+// salon end
+
+// spa start
+gulp.task('spa-js', function() {
+	return gulp.src([
+		'src/js/spa.js',
+		])
+	.pipe(concat('spa.min.js'))
+	.pipe(uglify())
+	.pipe(gulp.dest('dist/js'));
+});
+// spa end
+
+// clinic start
+gulp.task('clinic-js', function() {
+	return gulp.src([
+		'src/js/clinic.js',
+		])
+	.pipe(concat('clinic.min.js'))
+	.pipe(uglify())
+	.pipe(gulp.dest('dist/js'));
+});
+// clinic end
+
 gulp.task('js', [
 	'common-js',
 	'home-js',
 	'news-js',
+	'salon-js',
+	'spa-js',
+	'clinic-js',
 	], function() {
 	return gulp.src([
 		'src/js/common.js',

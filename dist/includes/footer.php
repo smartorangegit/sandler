@@ -1,5 +1,5 @@
 <footer class="footer">
-    <?php include_once('svg-code.php');?> 
+    <?php include_once('svg-sprite.php');?> 
 
     <div class="footer__container">
         <span class="footer__text">

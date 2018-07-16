@@ -9,7 +9,7 @@
 </head>
 <body>
     <?php include_once('includes/header.php');?>
-    <?php include_once('includes/svg-code.php');?>
+    <?php include_once('includes/svg-sprite.php');?>
     
     <div class="open-news-top">
         <img src="img/open-news/open-news.jpg" alt="image" class="open-news-top__image">

@@ -268,12 +268,12 @@ body {
 	text-align: center;
 	background-color: transparent;
 	z-index: 1;
-	transition: all 0.2s;
+	transition: all 0.4s;
 	cursor: pointer;
 
 	&:after {
 		@extend %absolute-center;
-		width: 102%;
+		width: 99.5%;
 		height: 0%;
 		background-color: #fff;
 		content: " ";
@@ -283,10 +283,11 @@ body {
 
 	&:hover {
 		color: #000;
+        background-color: transparent;
 	}
 
 	&:hover:after {
-		height: 102%;
+		height: 99.5%;
 	}
 }
 
@@ -306,10 +307,11 @@ body {
 	text-align: center;
 	cursor: pointer;
 	z-index: 1;
+    transition: all 0.4s;
 
 	&:after {
 		@extend %absolute-center;
-		width: 102%;
+		width: 99.5%;
 		height: 0%;
 		background-color: #000;
 		content: " ";
@@ -319,10 +321,11 @@ body {
 
 	&:hover {
 		color: #fff;
+        background-color: transparent;
 	}
 
 	&:hover:after {
-		height: 102%;
+		height: 99.5%;
 	}
 }
 // end__buttons
@@ -335,10 +338,6 @@ body {
 
     &_right {
         margin-left: 120/1200*100%;
-    }
-
-    &:last-child {
-        margin-bottom: 90px;
     }
 
     &__heading {
@@ -368,23 +367,29 @@ body {
     }
 
     &__info {
-        width: 340/1080*100%;
+        width: 470/1080*100%;
     }
 
     &__image {
         width: 600/1080*100%;
 
         &_left {
-            margin-right: 65px;
+            margin-right: 60px;
         }
     }
 }
 
 .page-block-1-list {
     margin-bottom: 35px;
+    position: relative;
+    overflow: hidden;
 
     &__item {
         cursor: pointer;
+
+        &:nth-child(n+11) {
+            display: none;
+        }
     }
 
     &__text {
@@ -396,6 +401,24 @@ body {
         &:hover {
             font-weight: 600;
         }
+    }
+}
+.page-block-1-list_botom_arrow {
+    margin-bottom: 10px;
+}
+.list__more {
+    padding-left: 35%;
+    box-sizing: border-box;
+    cursor: pointer;
+
+    svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    &_revers {
+        transform: rotate(-180deg);
+        transition: all 0.5s;
     }
 }
 .page-block-1-sublist {
@@ -417,18 +440,18 @@ body {
     }
 
     &-wrap {
-        width: 320/340*100%;
+        width: 320/470*100%;
         position: relative;
+        margin-top: 10px;
     }
 
     &_black {
         color: #fff;
         background-color: #000;
-        border: none;
 
         &:after {
             @extend %absolute-center;
-            width: 102%;
+            width: 99.5%;
             height: 0%;
             background-color: #fff;
             content: " ";
@@ -454,6 +477,96 @@ body {
 }
 // end__block-1
 
+// block-2
+.page-block-2 {
+    width: 100%;
+    margin-bottom: 50px;
+
+    &__heading {
+        width: 1080/1200*100%;
+        float: right;
+        clear: both;
+
+        &_left {
+            float: left;
+            text-align: right;
+        }
+    }
+
+    &_last {
+        margin-bottom: 90px;
+    }
+}   
+
+.page-block-2-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.page-block-2-content__info {
+    width: 550/1200*100%;
+}
+.page-block-2-text {
+    margin-bottom: 50px;
+}
+.page-block-2__text {
+    font-family: SolomonSansNormal,Arial,sans-serif;
+    font-size: 1rem;
+    line-height: 1.45;
+    color: #000;
+
+    &_margin_top {
+        margin-top: 30px;
+    }
+}
+
+.page-block-2-content-image {
+    width: 50%;
+}
+.page-block-2-content__image {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.page-block-2__button {
+    width: 320/1200*100%;
+    font-family: $solomonNorm;
+    letter-spacing: 3px;
+    text-transform: none;
+    font-size: 24/16*1rem;
+    background-color: #fff;
+    line-height: 45px;
+    box-sizing: border-box;
+
+    &-wrap {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &_black {
+        color: #fff;
+        background-color: #000;
+
+        &:after {
+            @extend %absolute-center;
+            width: 99.5%;
+            height: 0%;
+            background-color: #fff;
+            content: " ";
+            transition: all 0.4s;
+            z-index: -1;
+        }
+
+        &:hover {
+            color: #000;
+        }
+    }
+}
+// end__block-2
 
 // people
 .people {
