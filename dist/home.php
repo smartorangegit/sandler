@@ -84,7 +84,7 @@
                 <div class="home-block__content animated-block-js slide-left">
                     <p class="home-block__heading">КОСМЕТОЛОГИЧЕСКАЯ  КЛИНИКА</p>
                     <p class="home-block__text">Доверьте красоту и молодость <br> в руки специалиста – ВРАЧА И ТОЛЬКО ВРАЧА!</p>
-                    <a href="#" class="button_white">Посетить клинику</a>
+                    <a href="#" class="button_white home-block__button">Посетить клинику</a>
                 </div>
                 <div class="home-block__line home-block_3__line_1_2 animated-block-js fade"></div>
             </div>
@@ -104,7 +104,7 @@
                 <div class="home-block__content_black animated-block-js slide-left">
                     <p class="home-block__heading home-block__heading_black">SPA</p>
                     <p class="home-block__text home-block__text_black">Здесь царит спокойствие, забота и отдых.</p>
-                    <a href="#" class="button_black">ПОСЕТИТЬ SPA-САЛОН</a>
+                    <a href="#" class="button_black home-block__button">ПОСЕТИТЬ SPA-САЛОН</a>
                 </div>
                 <div class="home-block__line home-block_4__line_1_2 animated-block-js fade"></div>
             </div>
@@ -129,7 +129,7 @@
                     <div class="home-block__content_black animated-block-js slide-left">
                         <p class="home-block__heading home-block__heading_black">ФИТНЕС-КЛУБ</p>
                         <p class="home-block__text home-block__text_black">Зарядись энергией на весь день.</p>
-                        <a href="#" class="button_black">ПОСЕТИТЬ КЛУБ</a>
+                        <a href="#" class="button_black home-block__button">ПОСЕТИТЬ КЛУБ</a>
                     </div>
                     <div class="home-block__line home-block_5_1__line_1_2 animated-block-js fade"></div>
                 </div>
@@ -140,7 +140,7 @@
                     <div class="home-block__content_black animated-block-js slide-left">
                         <p class="home-block__heading home-block__heading_black">ФОТО СТУДИЯ</p>
                         <p class="home-block__text home-block__text_black">Полюбуйся собой со стороны.</p>
-                        <a href="#" class="button_black">СМОТРЕТЬ ФОТО</a>
+                        <a href="#" class="button_black home-block__button">СМОТРЕТЬ ФОТО</a>
                     </div>
                     <div class="home-block__line home-block_5_2__line_1_2 animated-block-js fade"></div>
                 </div>
@@ -161,7 +161,7 @@
                 <div class="home-block__content animated-block-js slide-left">
                     <p class="home-block__heading">РЕСТОРАН</p>
                     <p class="home-block__text">Невероятно вкусно и полезно.</p>
-                    <a href="#" class="button_white">Посетить ресторан</a>
+                    <a href="#" class="button_white home-block__button">Посетить ресторан</a>
                 </div>
                 <div class="home-block__line home-block_6__line_1_2 animated-block-js fade"></div>
             </div>
@@ -181,7 +181,7 @@
                 <div class="home-block__content animated-block-js slide-left">
                     <p class="home-block__heading">MEET YULIA</p>
                     <p class="home-block__text"><span class="disk">СТРАСТЬ</span> <span class="disk">СИЛА</span> ЧУВСТВЕННОСТЬ</p>
-                    <a href="#" class="button_white">УЗНАТЬ БОЛЬШЕ</a>
+                    <a href="#" class="button_white home-block__button">УЗНАТЬ БОЛЬШЕ</a>
                 </div>
                 <div class="home-block__line home-block_7__line_1_2 animated-block-js fade"></div>
             </div>
