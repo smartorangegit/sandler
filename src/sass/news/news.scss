@@ -193,6 +193,15 @@
 		font-size: 1rem;
 		letter-spacing: 0;
 	}
-
 }
+
+// add animation
+.news-list__item {
+	transition: all 0.8s 1s;
+}
+
+.news-list {
+	transition: all 2s 0.1s;
+}
+// end__add animation
 

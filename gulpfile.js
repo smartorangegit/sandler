@@ -93,6 +93,17 @@ gulp.task('clinic-js', function() {
 });
 // clinic end
 
+// contact start
+gulp.task('contact-js', function() {
+	return gulp.src([
+		'src/js/contact.js',
+		])
+	.pipe(concat('contact.min.js'))
+	.pipe(uglify())
+	.pipe(gulp.dest('dist/js'));
+});
+// contact end
+
 gulp.task('js', [
 	'common-js',
 	'home-js',
@@ -100,6 +111,7 @@ gulp.task('js', [
 	'salon-js',
 	'spa-js',
 	'clinic-js',
+	'contact-js',
 	], function() {
 	return gulp.src([
 		'src/js/common.js',

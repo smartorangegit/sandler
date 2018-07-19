@@ -14,6 +14,7 @@
     <section class="top">
         <div class="page-heading-wrap">
             <h1 class="page-heading">ИМИДЖ-СТУДИЯ SANDLER</h1>
+            <div class="page-heading__stick"></div>
         </div>
         <div class="page-slider-wrap salon-slider-wrap">
             <ul class="page-slider">
@@ -39,37 +40,37 @@
     </section>
 
     <div class="container">
-        <div class="page-block-1 page-block-1_right">
-            <h2 class="page-block-1__heading">ВОЛОСЫ</h2>
+        <div class="page-block-1 page-block-1_right animation-wrapper-js">
+            <h2 class="page-block-1__heading animated-block-js slide-right">ВОЛОСЫ</h2>
             <div class="page-block-1-content">
                 <div class="page-block-1-content__info">
                     <ul class="page-block-1-list">
-                        <li class="page-block-1-list__item">
+                        <li class="page-block-1-list__item page-block-1-list__item_1 animated-block-js slide-left">
                             <span class="page-block-1-list__text triangle"> Стрижка и укладка</span>
                         </li>
-                        <li class="page-block-1-list__item">
+                        <li class="page-block-1-list__item page-block-1-list__item_2 animated-block-js slide-left">
                             <span class="page-block-1-list__text triangle">Детская стрижка</span>
                         </li>
-                        <li class="page-block-1-list__item">
+                        <li class="page-block-1-list__item page-block-1-list__item_3 animated-block-js slide-left">
                             <span class="page-block-1-list__text triangle"> Вечерняя укладка</span>
                         </li>
-                        <li class="page-block-1-list__item">
+                        <li class="page-block-1-list__item page-block-1-list__item_4 animated-block-js slide-left">
                             <span class="page-block-1-list__text triangle">Окрашивание волос</span>
                         </li>
-                        <li class="page-block-1-list__item">
+                        <li class="page-block-1-list__item page-block-1-list__item_6 animated-block-js slide-left">
                             <span class="page-block-1-list__text triangle">“Абсолютное счастье” для волос</span>
                         </li>
-                        <li class="page-block-1-list__item">
+                        <li class="page-block-1-list__item page-block-1-list__item_7 animated-block-js slide-left">
                             <span class="page-block-1-list__text triangle">Восстановление волос Olaplex</span>
                         </li>
-                        <li class="page-block-1-list__item">
+                        <li class="page-block-1-list__item page-block-1-list__item_8 animated-block-js slide-left">
                             <span class="page-block-1-list__text triangle">Кератиновая система востановления и выравнивания волос</span>
                         </li>
-                        <li class="page-block-1-list__item">
+                        <li class="page-block-1-list__item page-block-1-list__item_9 animated-block-js slide-left">
                             <span class="page-block-1-list__text triangle">Камуфлирование седины</span>
                         </li>
                     </ul>
-                    <div class="page-block-1__button-wrap">
+                    <div class="page-block-1__button-wrap animated-block-js fade">
                         <a href="#" class="button_black page-block-1__button">
                             Записаться on-line
                         </a>
@@ -80,20 +81,20 @@
                         <div class="page-block-1__button-line"></div>
                     </div>
                 </div>
-                <img src="img/salon/img_1.jpg" alt="image" class="page-block-1-content__image">
+                <img src="img/salon/img_1.jpg" alt="image" class="page-block-1-content__image animated-block-js slide-right">
             </div>
         </div>
 
-        <div class="page-block-1">
-            <h2 class="page-block-1__heading page-block-1__heading_right">ВИЗАЖ</h2>
+        <div class="page-block-1 animation-wrapper-js">
+            <h2 class="page-block-1__heading page-block-1__heading_right animated-block-js slide-left">ВИЗАЖ</h2>
             <div class="page-block-1-content page-block-1-content_left">
-                <img src="img/salon/img_2.jpg" alt="image" class="page-block-1-content__image page-block-1-content__image_left">
+                <img src="img/salon/img_2.jpg" alt="image" class="page-block-1-content__image page-block-1-content__image_left animated-block-js slide-left">
                 <div class="page-block-1-content__info">
                     <ul class="page-block-1-list">
-                        <li class="page-block-1-list__item">
+                        <li class="page-block-1-list__item page-block-1-list__item_1 animated-block-js slide-right">
                             <span class="page-block-1-list__text triangle"> Make up</span>
                             <ul class="page-block-1-sublist">
-                                <li class="page-block-1-list__item">
+                                <li class="page-block-1-list__item ">
                                     <span class="page-block-1-list__text dash">дневной</span>
                                 </li>
                                 <li class="page-block-1-list__item ">
@@ -115,17 +116,17 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="page-block-1-list__item">
+                        <li class="page-block-1-list__item page-block-1-list__item_2 animated-block-js slide-right">
                             <span class="page-block-1-list__text triangle">Ресницы</span>
                         </li>
-                        <li class="page-block-1-list__item">
+                        <li class="page-block-1-list__item page-block-1-list__item_3 animated-block-js slide-right">
                             <span class="page-block-1-list__text triangle"> Брови</span>
                         </li>
-                        <li class="page-block-1-list__item">
+                        <li class="page-block-1-list__item page-block-1-list__item_4 animated-block-js slide-right">
                             <span class="page-block-1-list__text triangle">Урок макияжа</span>
                         </li>
                     </ul>
-                    <div class="page-block-1__button-wrap">
+                    <div class="page-block-1__button-wrap animated-block-js fade">
                         <a href="#" class="button_black page-block-1__button">
                             Записаться on-line
                         </a>
@@ -139,28 +140,28 @@
             </div>
         </div>
 
-        <div class="page-block-1 page-block-1_right">
-            <h2 class="page-block-1__heading">Ногтевой сервис</h2>
+        <div class="page-block-1 page-block-1_right animation-wrapper-js">
+            <h2 class="page-block-1__heading animated-block-js slide-right">Ногтевой сервис</h2>
             <div class="page-block-1-content">
                 <div class="page-block-1-content__info">
                     <ul class="page-block-1-list">
-                        <li class="page-block-1-list__item">
+                        <li class="page-block-1-list__item page-block-1-list__item_2 animated-block-js slide-left">
                             <span class="page-block-1-list__text triangle"> Маникюр</span>
                         </li>
-                        <li class="page-block-1-list__item">
+                        <li class="page-block-1-list__item page-block-1-list__item_2 animated-block-js slide-left">
                             <span class="page-block-1-list__text triangle">Педикюр</span>
                         </li>
-                        <li class="page-block-1-list__item">
+                        <li class="page-block-1-list__item page-block-1-list__item_3 animated-block-js slide-left">
                             <span class="page-block-1-list__text triangle"> Уход для рук “Кокон” от Maria Galland (Франция)</span>
                         </li>
-                        <li class="page-block-1-list__item">
+                        <li class="page-block-1-list__item page-block-1-list__item_4 animated-block-js slide-left">
                             <span class="page-block-1-list__text triangle">Покрытие</span>
                         </li>
-                        <li class="page-block-1-list__item">
+                        <li class="page-block-1-list__item page-block-1-list__item_5 animated-block-js slide-left">
                             <span class="page-block-1-list__text triangle">Уход за руками и ногами</span>
                         </li>
                     </ul>
-                    <div class="page-block-1__button-wrap">
+                    <div class="page-block-1__button-wrap animated-block-js fade">
                         <a href="#" class="button_black page-block-1__button">
                             Записаться on-line
                         </a>
@@ -171,33 +172,33 @@
                         <div class="page-block-1__button-line"></div>
                     </div>
                 </div>
-                <img src="img/salon/img_3.jpg" alt="image" class="page-block-1-content__image">
+                <img src="img/salon/img_3.jpg" alt="image" class="page-block-1-content__image animated-block-js slide-right">
             </div>
         </div>
 
-        <div class="page-block-1">
-            <h2 class="page-block-1__heading page-block-1__heading_right">Стилист</h2>
+        <div class="page-block-1 animation-wrapper-js">
+            <h2 class="page-block-1__heading page-block-1__heading_right animated-block-js slide-left">Стилист</h2>
             <div class="page-block-1-content page-block-1-content_left">
-                <img src="img/salon/img_4.jpg" alt="image" class="page-block-1-content__image page-block-1-content__image_left">
+                <img src="img/salon/img_4.jpg" alt="image" class="page-block-1-content__image page-block-1-content__image_left animated-block-js slide-left">
                 <div class="page-block-1-content__info">
                     <ul class="page-block-1-list">
-                        <li class="page-block-1-list__item">
+                        <li class="page-block-1-list__item page-block-1-list__item_1 animated-block-js slide-right">
                             <span class="page-block-1-list__text triangle"> Гардероб-тест</span>
                         </li>
-                        <li class="page-block-1-list__item">
+                        <li class="page-block-1-list__item page-block-1-list__item_2 animated-block-js slide-right">
                             <span class="page-block-1-list__text triangle">Подготовка к фотопроекту</span>
                         </li>
-                        <li class="page-block-1-list__item">
+                        <li class="page-block-1-list__item page-block-1-list__item_3 animated-block-js slide-right">
                             <span class="page-block-1-list__text triangle"> Консультация стилиста, имидж-дизайнера/span>
                         </li>
-                        <li class="page-block-1-list__item">
+                        <li class="page-block-1-list__item page-block-1-list__item_4 animated-block-js slide-right">
                             <span class="page-block-1-list__text triangle">Шопинг-игра! Экспресс обновление</span>
                         </li>
-                        <li class="page-block-1-list__item">
+                        <li class="page-block-1-list__item page-block-1-list__item_5 animated-block-js slide-right">
                             <span class="page-block-1-list__text triangle">Персональный шопинг</span>
                         </li>
                     </ul>
-                    <div class="page-block-1__button-wrap">
+                    <div class="page-block-1__button-wrap animated-block-js fade">
                         <a href="#" class="button_black page-block-1__button">
                             Записаться on-line
                         </a>
@@ -213,12 +214,12 @@
 
         <div class="people line-bottom line-bottom_custom">
             <h2 class="people__heading">НАШИ СПЕЦИАЛИСТЫ</h2>
-            <div id="hair" class="people-section">
+            <div id="hair" class="people-section animation-wrapper-js">
                 <h3 class="people-section__heading">ВОЛОСЫ</h3>
                 <ul class="people-section-list">
                     <li class="people-section-list__item">
                         <div class="people-section-list-image">
-                            <img src="img/salon/people/people_1.jpg" alt="photo" class="people-section-list__image">
+                            <img src="img/salon/people/people_1.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
                             <a href="#" class="people-section-list__button">
                                 Записаться
                             </a>
@@ -228,7 +229,7 @@
                     </li>
                     <li class="people-section-list__item">
                         <div class="people-section-list-image">
-                            <img src="img/salon/people/people_2.jpg" alt="photo" class="people-section-list__image">
+                            <img src="img/salon/people/people_2.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
                             <a href="#" class="people-section-list__button">
                                 Записаться
                             </a>
@@ -238,7 +239,7 @@
                     </li>
                     <li class="people-section-list__item">
                         <div class="people-section-list-image">
-                            <img src="img/salon/people/people_3.jpg" alt="photo" class="people-section-list__image">
+                            <img src="img/salon/people/people_3.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
                             <a href="#" class="people-section-list__button">
                                 Записаться
                             </a>
@@ -248,7 +249,7 @@
                     </li>
                     <li class="people-section-list__item">
                         <div class="people-section-list-image">
-                            <img src="img/salon/people/people_3.jpg" alt="photo" class="people-section-list__image">
+                            <img src="img/salon/people/people_3.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
                             <a href="#" class="people-section-list__button">
                                 Записаться
                             </a>
@@ -259,12 +260,12 @@
                 </ul>
             </div>
 
-            <div id="visage" class="people-section">
+            <div id="visage" class="people-section animation-wrapper-js">
                 <h3 class="people-section__heading">ВИЗАЖ</h3>
                 <ul class="people-section-list">
                     <li class="people-section-list__item">
                         <div class="people-section-list-image">
-                            <img src="img/salon/people/people_1.jpg" alt="photo" class="people-section-list__image">
+                            <img src="img/salon/people/people_1.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
                             <a href="#" class="people-section-list__button">
                                 Записаться
                             </a>
@@ -274,7 +275,7 @@
                     </li>
                     <li class="people-section-list__item">
                         <div class="people-section-list-image">
-                            <img src="img/salon/people/people_2.jpg" alt="photo" class="people-section-list__image">
+                            <img src="img/salon/people/people_2.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
                             <a href="#" class="people-section-list__button">
                                 Записаться
                             </a>
@@ -284,7 +285,7 @@
                     </li>
                     <li class="people-section-list__item">
                         <div class="people-section-list-image">
-                            <img src="img/salon/people/people_3.jpg" alt="photo" class="people-section-list__image">
+                            <img src="img/salon/people/people_3.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
                             <a href="#" class="people-section-list__button">
                                 Записаться
                             </a>
@@ -295,12 +296,12 @@
                 </ul>
             </div>
 
-            <div id="nails" class="people-section">
+            <div id="nails" class="people-section animation-wrapper-js">
                 <h3 class="people-section__heading">Ногтевой сервис</h3>
                 <ul class="people-section-list">
                     <li class="people-section-list__item">
                         <div class="people-section-list-image">
-                            <img src="img/salon/people/people_1.jpg" alt="photo" class="people-section-list__image">
+                            <img src="img/salon/people/people_1.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
                             <a href="#" class="people-section-list__button">
                                 Записаться
                             </a>
@@ -310,7 +311,7 @@
                     </li>
                     <li class="people-section-list__item">
                         <div class="people-section-list-image">
-                            <img src="img/salon/people/people_2.jpg" alt="photo" class="people-section-list__image">
+                            <img src="img/salon/people/people_2.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
                             <a href="#" class="people-section-list__button">
                                 Записаться
                             </a>
@@ -320,7 +321,7 @@
                     </li>
                     <li class="people-section-list__item">
                         <div class="people-section-list-image">
-                            <img src="img/salon/people/people_3.jpg" alt="photo" class="people-section-list__image">
+                            <img src="img/salon/people/people_3.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
                             <a href="#" class="people-section-list__button">
                                 Записаться
                             </a>
@@ -330,7 +331,7 @@
                     </li>
                     <li class="people-section-list__item">
                         <div class="people-section-list-image">
-                            <img src="img/salon/people/people_3.jpg" alt="photo" class="people-section-list__image">
+                            <img src="img/salon/people/people_3.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
                             <a href="#" class="people-section-list__button">
                                 Записаться
                             </a>
@@ -341,12 +342,12 @@
                 </ul>
             </div>
 
-            <div id="stylist" class="people-section">
+            <div id="stylist" class="people-section animation-wrapper-js">
                 <h3 class="people-section__heading">Стилист</h3>
                 <ul class="people-section-list">
                     <li class="people-section-list__item">
                         <div class="people-section-list-image">
-                            <img src="img/salon/people/people_1.jpg" alt="photo" class="people-section-list__image">
+                            <img src="img/salon/people/people_1.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
                             <a href="#" class="people-section-list__button">
                                 Записаться
                             </a>
@@ -356,7 +357,7 @@
                     </li>
                     <li class="people-section-list__item">
                         <div class="people-section-list-image">
-                            <img src="img/salon/people/people_2.jpg" alt="photo" class="people-section-list__image">
+                            <img src="img/salon/people/people_2.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
                             <a href="#" class="people-section-list__button">
                                 Записаться
                             </a>
@@ -366,7 +367,7 @@
                     </li>
                     <li class="people-section-list__item">
                         <div class="people-section-list-image">
-                            <img src="img/salon/people/people_3.jpg" alt="photo" class="people-section-list__image">
+                            <img src="img/salon/people/people_3.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
                             <a href="#" class="people-section-list__button">
                                 Записаться
                             </a>

@@ -1,0 +1,49 @@
+.restaurant-wrap {
+	position: relative;
+	height: 100vh;
+	background: url(../img/restaurant/restoran-bg.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+.restaurant-footer {
+	@extend %absolute-center_h;
+	bottom: 0;
+	background-color: transparent;
+}
+
+.restaurant__content {
+	width: 480px;
+	@extend %absolute-center_v;
+}
+
+.restaurant__heading {
+	color: #000;
+	font-size: 48/16*1rem;
+	font-family: $solomonNorm;
+	letter-spacing: 2px;
+	line-height: 1;
+	margin-bottom: 10px;
+}
+
+.restaurant-contact {
+	display: flex;
+	align-items: flex-end;
+	width: 100%;
+	padding-top: 10px;
+	/*padding-left: 10px;*/
+	box-sizing: border-box;
+	border-top: 5px solid #000;
+
+
+	&__text {
+		color: #000;
+		font-size: 1rem;
+		font-family: $solomonNorm;
+		margin-right: 5px;
+		word-spacing: 4px;
+	}
+}
+
+.restaurant-social {
+	width: auto;
+}

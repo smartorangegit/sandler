@@ -14,6 +14,7 @@
     <section class="top">
         <div class="page-heading-wrap">
             <h1 class="page-heading">ФОТО СТУДИЯ</h1>
+            <div class="page-heading__stick"></div>
         </div>
         <div class="page-slider-wrap salon-slider-wrap">
             <ul class="page-slider">
@@ -40,10 +41,10 @@
 
     <div class="container">
 
-        <div class="page-block-2">
-            <h2 class="page-block-1__heading page-block-2__heading">FASION PHOTOSESSION</h2>
+        <div class="page-block-2 animation-wrapper-js">
+            <h2 class="page-block-1__heading page-block-2__heading animated-block-js slide-right">FASION PHOTOSESSION</h2>
             <div class="page-block-2-content">
-                <div class="page-block-2-content__info">
+                <div class="page-block-2-content__info animated-block-js slide-right">
                     <div class="page-block-2-text">
                         <p class="page-block-2__text">
                             Мы поможем  Вам напомнить, что смена прически, красивый макияж и фотосъемка в новом образе, может изменить Вашу жизнь. Полистайте пару глянцевых журналов, возьмите на заметку понравившиеся образы, изучите внимательно свой гардероб и выберете самое лучшее.
@@ -72,10 +73,10 @@
                         </p>
                     </div>
                 </div>
-                <div class="page-block-2-content-image">
+                <div class="page-block-2-content-image animated-block-js slide-left">
                     <img src="img/photo-studio/img_1.jpg" alt="image" class="page-block-2-content__image">
                 </div>
-                <div class="page-block-2__button-wrap">
+                <div class="page-block-2__button-wrap animated-block-js fade">
                     <a href="#" class="button_black page-block-2__button">
                         Записаться on-line
                     </a>
@@ -87,13 +88,13 @@
             </div>
         </div>
 
-        <div class="page-block-2">
-            <h2 class="page-block-1__heading page-block-2__heading page-block-2__heading_left">Фотосессия</h2>
+        <div class="page-block-2 animation-wrapper-js">
+            <h2 class="page-block-1__heading page-block-2__heading page-block-2__heading_left animated-block-js slide-left">Фотосессия</h2>
             <div class="page-block-2-content">
-                <div class="page-block-2-content-image">
+                <div class="page-block-2-content-image animated-block-js slide-right">
                     <img src="img/photo-studio/img_2.jpg" alt="image" class="page-block-2-content__image">
                 </div>
-                <div class="page-block-2-content__info">
+                <div class="page-block-2-content__info animated-block-js slide-left">
                     <div class="page-block-2-text">
                         <p class="page-block-2__text">
                         Фотосессия - это создание одного образа для конкретной цели:
@@ -112,7 +113,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="page-block-2__button-wrap">
+                <div class="page-block-2__button-wrap animated-block-js fade">
                     <a href="#photographer" class="button_black page-block-2__button
                         page-block-2__button_black js-cosmetology-specialist__button">
                         Наши специалисты
@@ -124,10 +125,10 @@
             </div>
         </div>
 
-        <div class="page-block-2">
-            <h2 class="page-block-1__heading page-block-2__heading">ФИТНЕС ФОТОСЕССИЯ С СЕМЬЕЙ</h2>
+        <div class="page-block-2 animation-wrapper-js">
+            <h2 class="page-block-1__heading page-block-2__heading animated-block-js slide-right">ФИТНЕС ФОТОСЕССИЯ С СЕМЬЕЙ</h2>
             <div class="page-block-2-content">
-                <div class="page-block-2-content__info">
+                <div class="page-block-2-content__info animated-block-js slide-right">
                     <div class="page-block-2-text">
                         <p class="page-block-2__text">
                             Мечтаете о самом лучшем фото с ребенком?
@@ -137,10 +138,10 @@
                         </p>
                     </div>
                 </div>
-                <div class="page-block-2-content-image">
+                <div class="page-block-2-content-image animated-block-js slide-left">
                     <img src="img/photo-studio/img_3.jpg" alt="image" class="page-block-2-content__image">
                 </div>
-                <div class="page-block-2__button-wrap">
+                <div class="page-block-2__button-wrap animated-block-js fade">
                     <a href="#" class="button_black page-block-2__button">
                         Записаться on-line
                     </a>
@@ -152,13 +153,13 @@
             </div>
         </div>
 
-        <div class="page-block-2">
-            <h2 class="page-block-1__heading page-block-2__heading page-block-2__heading_left">ФОТОРЕПОРТАЖ</h2>
+        <div class="page-block-2 animation-wrapper-js">
+            <h2 class="page-block-1__heading page-block-2__heading page-block-2__heading_left animated-block-js slide-left">ФОТОРЕПОРТАЖ</h2>
             <div class="page-block-2-content">
-                <div class="page-block-2-content-image">
+                <div class="page-block-2-content-image animated-block-js slide-right">
                     <img src="img/photo-studio/img_4.jpg" alt="image" class="page-block-2-content__image">
                 </div>
-                <div class="page-block-2-content__info">
+                <div class="page-block-2-content__info animated-block-js slide-left">
                     <div class="page-block-2-text">
                         <p class="page-block-2__text">
                             Аренда фотостудии:
@@ -174,7 +175,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="page-block-2__button-wrap">
+                <div class="page-block-2__button-wrap animated-block-js slide-fade">
                     <a href="#photographer" class="button_black page-block-2__button
                         page-block-2__button_black js-cosmetology-specialist__button">
                         Наши специалисты
@@ -186,10 +187,10 @@
             </div>
         </div>
 
-        <div class="page-block-2">
-            <h2 class="page-block-1__heading page-block-2__heading">МГНОВЕННОЕ ФОТО</h2>
+        <div class="page-block-2 animation-wrapper-js">
+            <h2 class="page-block-1__heading page-block-2__heading animated-block-js slide-right">МГНОВЕННОЕ ФОТО</h2>
             <div class="page-block-2-content">
-                <div class="page-block-2-content__info">
+                <div class="page-block-2-content__info animated-block-js slide-right">
                     <div class="page-block-2-text">
                         <p class="page-block-2__text">
                            Фото точки стиля.
@@ -202,10 +203,10 @@
                         </p>
                     </div>
                 </div>
-                <div class="page-block-2-content-image">
+                <div class="page-block-2-content-image animated-block-js slide-left">
                     <img src="img/photo-studio/img_5.jpg" alt="image" class="page-block-2-content__image">
                 </div>
-                <div class="page-block-2__button-wrap">
+                <div class="page-block-2__button-wrap animated-block-js fade">
                     <a href="#" class="button_black page-block-2__button">
                         Записаться on-line
                     </a>
@@ -217,13 +218,13 @@
             </div>
         </div>
 
-        <div class="page-block-2">
-            <h2 class="page-block-1__heading page-block-2__heading page-block-2__heading_left">АРЕНДА ФОТОСТУДИИ</h2>
+        <div class="page-block-2 animation-wrapper-js">
+            <h2 class="page-block-1__heading page-block-2__heading page-block-2__heading_left animated-block-js slide-left">АРЕНДА ФОТОСТУДИИ</h2>
             <div class="page-block-2-content">
-                <div class="page-block-2-content-image">
+                <div class="page-block-2-content-image animated-block-js slide-right">
                     <img src="img/photo-studio/img_6.jpg" alt="image" class="page-block-2-content__image">
                 </div>
-                <div class="page-block-2-content__info">
+                <div class="page-block-2-content__info animated-block-js slide-left">
                     <div class="page-block-2-text">
                         <p class="page-block-2__text">
                             Аренда фотостудии:
@@ -239,7 +240,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="page-block-2__button-wrap">
+                <div class="page-block-2__button-wrap animated-block-js fade">
                     <a href="#photographer" class="button_black page-block-2__button
                         page-block-2__button_black js-cosmetology-specialist__button">
                         Наши специалисты
@@ -251,10 +252,10 @@
             </div>
         </div>
 
-        <div class="page-block-2 page-block-2_last">
-            <h2 class="page-block-1__heading page-block-2__heading">МЕРОПРИЯТИЯ</h2>
+        <div class="page-block-2 page-block-2_last animation-wrapper-js">
+            <h2 class="page-block-1__heading page-block-2__heading animated-block-js slide-right">МЕРОПРИЯТИЯ</h2>
             <div class="page-block-2-content">
-                <div class="page-block-2-content__info">
+                <div class="page-block-2-content__info animated-block-js slide-right">
                     <div class="page-block-2-text">
                         <p class="page-block-2__text">
                             Предлагаем в аренду зал-трансформер площадью 60 кв. м (на 15.мест)
@@ -267,10 +268,10 @@
                         </p>
                     </div>
                 </div>
-                <div class="page-block-2-content-image">
+                <div class="page-block-2-content-image animated-block-js slide-left">
                     <img src="img/photo-studio/img_7.jpg" alt="image" class="page-block-2-content__image">
                 </div>
-                <div class="page-block-2__button-wrap">
+                <div class="page-block-2__button-wrap animated-block-js fade">
                     <a href="#" class="button_black page-block-2__button">
                         Записаться on-line
                     </a>
@@ -282,13 +283,13 @@
             </div>
         </div>
 
-        <div class="page-block-2">
-            <h2 class="page-block-1__heading page-block-2__heading page-block-2__heading_left">ФОТОШКОЛА</h2>
+        <div class="page-block-2 animation-wrapper-js">
+            <h2 class="page-block-1__heading page-block-2__heading page-block-2__heading_left animated-block-js slide-left">ФОТОШКОЛА</h2>
             <div class="page-block-2-content">
-                <div class="page-block-2-content-image">
+                <div class="page-block-2-content-image animated-block-js slide-right">
                     <img src="img/photo-studio/img_8.jpg" alt="image" class="page-block-2-content__image">
                 </div>
-                <div class="page-block-2-content__info">
+                <div class="page-block-2-content__info animated-block-js slide-left">
                     <div class="page-block-2-text">
                         <p class="page-block-2__text">
                             Предлагаем в аренду зал-трансформер площадью 60 кв. м (на 15.мест)
@@ -301,7 +302,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="page-block-2__button-wrap">
+                <div class="page-block-2__button-wrap animated-block-js fade">
                     <a href="#photographer" class="button_black page-block-2__button
                         page-block-2__button_black js-cosmetology-specialist__button">
                         Наши специалисты
@@ -315,11 +316,11 @@
 
         <div class="people line-bottom line-bottom_custom">
             <h2 class="people__heading">НАШИ ФОТОГРАФЫ</h2>
-            <div id="photographer" class="people-section cosmetology-specialist">
+            <div id="photographer" class="people-section cosmetology-specialist animation-wrapper-js">
                 <ul class="people-section-list">
                     <li class="people-section-list__item">
                         <div class="people-section-list-image">
-                            <img src="img/salon/people/people_1.jpg" alt="photo" class="people-section-list__image">
+                            <img src="img/salon/people/people_1.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
                             <a href="#" class="people-section-list__button">
                                 Записаться
                             </a>
@@ -329,7 +330,7 @@
                     </li>
                     <li class="people-section-list__item">
                         <div class="people-section-list-image">
-                            <img src="img/salon/people/people_2.jpg" alt="photo" class="people-section-list__image">
+                            <img src="img/salon/people/people_2.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
                             <a href="#" class="people-section-list__button">
                                 Записаться
                             </a>
@@ -339,7 +340,7 @@
                     </li>
                     <li class="people-section-list__item">
                         <div class="people-section-list-image">
-                            <img src="img/salon/people/people_3.jpg" alt="photo" class="people-section-list__image">
+                            <img src="img/salon/people/people_3.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
                             <a href="#" class="people-section-list__button">
                                 Записаться
                             </a>

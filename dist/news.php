@@ -14,6 +14,7 @@
     <section class="top">
         <div class="page-heading-wrap">
             <h1 class="page-heading">Новости</h1>
+            <div class="page-heading__stick"></div>
         </div>
         <div class="page-slider-wrap news-slider-wrap">
             <ul class="page-slider">
@@ -51,9 +52,9 @@
     </section>
 
     <main class="main line-bottom">
-        <div class="container news__container">
-            <ul class="news-list">
-                <li class="news-list__item">
+        <div class="container news__container animation-wrapper-js">
+            <ul class="news-list animated-block-js fade">
+                <li class="news-list__item animated-block-js slide-left">
                     <div class="news-list-image">
                         <div class="news-list__date-wrap">
                             <p class="news-list__date">5 мая 2018 г.</p>
@@ -63,7 +64,7 @@
                     <h2 class="news-list__heading">Каждая 5</h2>
                     <a href="open-news.php" class="button_black news-list__button">ПОДРОБНЕЕ</a>
                 </li>
-                <li class="news-list__item">
+                <li class="news-list__item animated-block-js slide-right">
                     <div class="news-list-image">
                         <div class="news-list__date-wrap">
                             <p class="news-list__date">5 мая 2018 г.</p>
@@ -73,7 +74,7 @@
                     <h2 class="news-list__heading">Каждая 5я СПА- процедура в пода...</h2>
                     <a href="open-news.php" class="button_black news-list__button">ПОДРОБНЕЕ</a>
                 </li>
-                <li class="news-list__item">
+                <li class="news-list__item animated-block-js slide-left">
                     <div class="news-list-image">
                         <div class="news-list__date-wrap">
                             <p class="news-list__date">5 мая 2018г.</p>
@@ -83,7 +84,7 @@
                     <h2 class="news-list__heading">Каждая 5я СПА- процедура в пода...</h2>
                     <a href="open-news.php" class="button_black news-list__button">ПОДРОБНЕЕ</a>
                 </li>
-                <li class="news-list__item">
+                <li class="news-list__item animated-block-js slide-right">
                     <div class="news-list-image">
                         <div class="news-list__date-wrap">
                             <p class="news-list__date">5 мая 2018 г.</p>

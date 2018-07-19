@@ -8,6 +8,51 @@ window.addEventListener("scroll", function() {
 });
 // end__fixed_menu
 
+// animation on scroll
+var animationArr = ["fade", "slide-left", "slide-right",  
+                "slide-top", "slide-bottom", "letter-draw",
+                "border-draw_white", "border-draw_black", "home-line-2", 
+                "home-line-3", "home-line-4", "home-line-5_1",
+                "home-line-5_2", "home-line-6", "home-line-7", "flip",
+                "height"];
+
+function animationOnScroll(animationList) { 
+    var elements = document.querySelectorAll(".animation-wrapper-js");
+    var arrElement = [];
+    var arrDescendants = [];
+
+    elements.forEach(function(item, i) {
+        arrElement.push(elements[i]);
+    });
+
+
+    window.addEventListener("scroll", function() {
+        arrElement.forEach(function(item, i) {
+            if(item.getBoundingClientRect().top < 500 && item.getBoundingClientRect().top > 300) {
+
+                var colDescendants = item.getElementsByTagName('*');
+
+                for(var k = 0; k < colDescendants.length; k++) {
+                    if(colDescendants[k].classList.contains("animated-block-js")) {
+                        arrDescendants.push(colDescendants[k]);
+                    }
+                }
+
+                //add class for animation
+                for (var j = 0; j < animationList.length; j++) {
+                    arrDescendants.forEach(function(item, i) {
+                        if(item.classList.contains(animationList[j])) {
+                            item.classList.add(animationList[j] + "-in");
+                        }
+                    });
+                }
+            }
+        });
+    });
+}
+animationOnScroll(animationArr); 
+// end__animation on scroll
+
 // page-slider
 $('.page-slider').slick({
     autoplay: false,
@@ -62,4 +107,25 @@ function oneAnchor(button, anchor) {
 oneAnchor($(".js-massage-specialist__button"), $(".massage-specialist"));
 oneAnchor($(".js-cosmetology-specialist__button"), $(".cosmetology-specialist"));
 // end__slow scroll
+
+
+// header-mobile
+$(".menu-open").on("click", function() {
+    $(".nav-wrapper").slideDown();
+    $(".header-mobile__icon").fadeIn();
+    $(".menu-open__text").css("font-size", "1rem");
+    $(".menu-line-wrap").css("display", "none");
+    $(".home-header").css("background-color", "#000");
+    $(".header__link").fadeOut();
+});
+$(".header-mobile__icon").on("click", function() {
+    $(".nav-wrapper").slideUp();
+    $(this).fadeOut();
+    $(".menu-line-wrap").css("display", "block");
+    $(".menu-open__text").css("font-size", "6px");
+    $(".home-header").css("background-color", "rgba(0,0,0,0.3)");
+    $(".header__link").fadeIn();
+});
+// end__header-mobile
+
 

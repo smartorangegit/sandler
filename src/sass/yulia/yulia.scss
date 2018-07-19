@@ -1,0 +1,120 @@
+.yulia-content {
+	position: relative;
+	padding: 40px 0 50px 0;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.yulia-info {
+	@extend %absolute-center_v;
+	left: 0;
+	width: 680/1200*100%;
+	overflow: hidden;
+
+	&__heading {
+		position: relative;
+		width: 450/680*100%;
+		margin-bottom: 30px;
+		margin-left: 50/680*100%;
+		font-family: $solomonNorm;
+		font-size: 48/16*1rem;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		padding-bottom: 13px;
+		border-bottom: 5px solid #000;
+		opacity: 0;
+	}
+
+	&__text {
+		width: 100%;
+		padding: 30px 50px;
+		color: #fff;
+		text-align: justify;
+		line-height: 1.5;
+		font-family: $solomonNorm;
+		font-size: 1rem;
+		background-color: rgba(0,0,0,0.8);
+		box-sizing: border-box;
+		margin-bottom: 24px;
+		z-index: 10;
+		opacity: 0;
+	}
+}
+
+.yulia-info-contact {
+	display: flex;
+	align-items: flex-end;
+	width: 455/680*100%;
+	padding-bottom: 15px;
+	border-bottom: 5px solid #000;
+	margin-left: 105/680*100%;
+	opacity: 0;
+
+	&__text {
+		font-family: $solomonNorm;
+		font-size: 24/16*1rem;
+		margin-right: 25px;
+	}
+}
+
+.yulia-social {
+	align-items: flex-end;
+	width: auto;
+
+	&__item {
+
+		&:last-chld {
+			margin-right: 0;
+		}
+	}
+
+	&__icon {
+		width: 30px;
+		height: 30px;
+	}	
+}
+
+.yulia-image {
+	height: 960px;
+	width: 640/1200*100%;
+	background: url(../img/yulia/yulia_photo.jpg) center center no-repeat; 
+	background-size: cover;
+	z-index: -1;
+	opacity: 0;
+}
+
+
+// add animation
+.yulia-info__heading {
+	animation: yuliaHeadingShow 0.7s forwards;
+}
+@keyframes yuliaHeadingShow {
+	0% {transform: translateX(-20%); opacity: 0;}
+	100% {transform: translateX(0); opacity: 1;}
+}
+
+.yulia-info__text {
+	animation: yuliaTextShow 0.7s 0.5s forwards;
+}
+@keyframes yuliaTextShow {
+	0% {transform: translateY(-5%); opacity: 0;}
+	100% {transform: translateY(0); opacity: 1;}
+}
+
+.yulia-info-contact {
+	animation: yuliaContactShow 0.7s forwards;
+}
+@keyframes yuliaContactShow {
+	0% {transform: translateX(20%); opacity: 0;}
+	100% {transform: translateX(0); opacity: 1;}
+}
+
+.yulia-image {
+	animation: yuliaImageShow 3s 0.8s forwards;
+}
+@keyframes yuliaImageShow {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+// end__add animation
+
