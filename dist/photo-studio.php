@@ -77,7 +77,7 @@
                     <img src="img/photo-studio/img_1.jpg" alt="image" class="page-block-2-content__image">
                 </div>
                 <div class="page-block-2__button-wrap animated-block-js fade">
-                    <a href="#" class="button_black page-block-2__button">
+                    <a href="#" class="button_black page-block-2__button form-show-js">
                         Записаться on-line
                     </a>
                     <a href="#photographer" class="button_black page-block-2__button
@@ -118,7 +118,7 @@
                         page-block-2__button_black js-cosmetology-specialist__button">
                         Наши специалисты
                     </a>
-                    <a href="#" class="button_black page-block-2__button">
+                    <a href="#" class="button_black page-block-2__button form-show-js">
                         Записаться on-line
                     </a>
                 </div>
@@ -142,7 +142,7 @@
                     <img src="img/photo-studio/img_3.jpg" alt="image" class="page-block-2-content__image">
                 </div>
                 <div class="page-block-2__button-wrap animated-block-js fade">
-                    <a href="#" class="button_black page-block-2__button">
+                    <a href="#" class="button_black page-block-2__button form-show-js">
                         Записаться on-line
                     </a>
                     <a href="#photographer" class="button_black page-block-2__button
@@ -180,7 +180,7 @@
                         page-block-2__button_black js-cosmetology-specialist__button">
                         Наши специалисты
                     </a>
-                    <a href="#" class="button_black page-block-2__button">
+                    <a href="#" class="button_black page-block-2__button form-show-js">
                         Записаться on-line
                     </a>
                 </div>
@@ -207,7 +207,7 @@
                     <img src="img/photo-studio/img_5.jpg" alt="image" class="page-block-2-content__image">
                 </div>
                 <div class="page-block-2__button-wrap animated-block-js fade">
-                    <a href="#" class="button_black page-block-2__button">
+                    <a href="#" class="button_black page-block-2__button form-show-js">
                         Записаться on-line
                     </a>
                     <a href="#photographer" class="button_black page-block-2__button
@@ -245,7 +245,7 @@
                         page-block-2__button_black js-cosmetology-specialist__button">
                         Наши специалисты
                     </a>
-                    <a href="#" class="button_black page-block-2__button">
+                    <a href="#" class="button_black page-block-2__button form-show-js">
                         Записаться on-line
                     </a>
                 </div>
@@ -272,7 +272,7 @@
                     <img src="img/photo-studio/img_7.jpg" alt="image" class="page-block-2-content__image">
                 </div>
                 <div class="page-block-2__button-wrap animated-block-js fade">
-                    <a href="#" class="button_black page-block-2__button">
+                    <a href="#" class="button_black page-block-2__button form-show-js">
                         Записаться on-line
                     </a>
                     <a href="#photographer" class="button_black page-block-2__button
@@ -307,7 +307,7 @@
                         page-block-2__button_black js-cosmetology-specialist__button">
                         Наши специалисты
                     </a>
-                    <a href="#" class="button_black page-block-2__button">
+                    <a href="#" class="button_black page-block-2__button form-show-js">
                         Записаться on-line
                     </a>
                 </div>
@@ -317,38 +317,48 @@
         <div class="people line-bottom line-bottom_custom">
             <h2 class="people__heading">НАШИ ФОТОГРАФЫ</h2>
             <div id="photographer" class="people-section cosmetology-specialist animation-wrapper-js">
-                <ul class="people-section-list">
-                    <li class="people-section-list__item">
-                        <div class="people-section-list-image">
-                            <img src="img/salon/people/people_1.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
-                            <a href="#" class="people-section-list__button">
-                                Записаться
-                            </a>
-                        </div>
-                        <p class="people-section-list__name">Максимович Мила</p>
-                        <p class="people-section-list__position">арт директор, стилист парикмахер</p>
-                    </li>
-                    <li class="people-section-list__item">
-                        <div class="people-section-list-image">
-                            <img src="img/salon/people/people_2.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
-                            <a href="#" class="people-section-list__button">
-                                Записаться
-                            </a>
-                        </div>
-                        <p class="people-section-list__name">Максимович Мила</p>
-                        <p class="people-section-list__position">арт директор, стилист парикмахер</p>
-                    </li>
-                    <li class="people-section-list__item">
-                        <div class="people-section-list-image">
-                            <img src="img/salon/people/people_3.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
-                            <a href="#" class="people-section-list__button">
-                                Записаться
-                            </a>
-                        </div>
-                        <p class="people-section-list__name">Максимович Мила</p>
-                        <p class="people-section-list__position">арт директор, стилист парикмахер</p>
-                    </li>
-                </ul>
+                <div class="people-slider-wrap">
+                    <ul class="people-section-list photographer-slider">
+                        <li class="people-section-list__item">
+                            <div class="people-section-list-image">
+                                <img src="img/salon/people/people_1.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
+                                <a href="#" class="people-section-list__button form-show-js">
+                                    Записаться
+                                </a>
+                            </div>
+                            <p class="people-section-list__name">Максимович Мила</p>
+                            <p class="people-section-list__position">арт директор, стилист парикмахер</p>
+                        </li>
+                        <li class="people-section-list__item">
+                            <div class="people-section-list-image">
+                                <img src="img/salon/people/people_2.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
+                                <a href="#" class="people-section-list__button form-show-js">
+                                    Записаться
+                                </a>
+                            </div>
+                            <p class="people-section-list__name">Максимович Мила</p>
+                            <p class="people-section-list__position">арт директор, стилист парикмахер</p>
+                        </li>
+                        <li class="people-section-list__item">
+                            <div class="people-section-list-image">
+                                <img src="img/salon/people/people_3.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
+                                <a href="#" class="people-section-list__button form-show-js">
+                                    Записаться
+                                </a>
+                            </div>
+                            <p class="people-section-list__name">Максимович Мила</p>
+                            <p class="people-section-list__position">арт директор, стилист парикмахер</p>
+                        </li>
+                    </ul>
+                    <button class="page-slider__button people-slider__button_prev photographer-slider_prev">
+                        <span class="page-slider__button-text">Prev</span>
+                        <svg class="page-slider__button-icon long-arrow_revers"><use xlink:href="#long-arrow"></use></svg>
+                    </button>
+                    <button class="page-slider__button people-slider__button_next photographer-slider_next">
+                        <span class="page-slider__button-text">Next</span>
+                        <svg class="page-slider__button-icon"><use xlink:href="#long-arrow"></use></svg>
+                    </button>
+                </div>
             </div>
         </div>
 
@@ -358,5 +368,6 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/common.min.js"></script>
+<script src="js/photo-studio.min.js"></script>
 </body>
 </html>

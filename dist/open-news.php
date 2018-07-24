@@ -150,6 +150,43 @@
                 </ul>
             </div>
 
+            <div class="pagination-wrap open-news__pagination-wrap">
+                <ul class="pagination">
+                    <li class="pagination__item">
+                        <a href="#" class="pagination__link">1</a>
+                    </li>
+                    <li class="pagination__item">
+                        <a href="#" class="pagination__link">2</a>
+                    </li>
+                    <li class="pagination__item">
+                        <a href="#" class="pagination__link">3</a>
+                    </li>
+                    <li class="pagination__item">
+                        <a href="#" class="pagination__link">4</a>
+                    </li>
+                    <li class="pagination__item">
+                        <a href="#" class="pagination__link">. . .</a>
+                    </li>
+                    <li class="pagination__item">
+                        <a href="#" class="pagination__link pagination__link_active">8</a>
+                    </li>
+                    <li class="pagination__item">
+                        <a href="#" class="pagination__link">9</a>
+                    </li>
+                    <li class="pagination__item">
+                        <a href="#" class="pagination__link">10</a>
+                    </li>
+                </ul>
+                <button class="pagination__button pagination__button_prev">
+                    <span class="pagination__button-text">Prev <snap class="pagination__number">4</snap></span>
+                    <svg class="pagination__button-icon long-arrow_revers"><use xlink:href="#long-arrow"></use></svg>
+                </button>
+                <button class="pagination__button pagination__button_next">
+                    <span class="pagination__button-text">Next <snap class="pagination__number">4</snap></span>
+                    <svg class="pagination__button-icon"><use xlink:href="#long-arrow"></use></svg>
+                </button>
+            </div>
+
             <div class="news-subscribe">
                 <span class="news-subscribe__text">Подписаться на новости и акции</span>
                 <button href="#" class="button_black news-subscribe__button">Подписаться</button>

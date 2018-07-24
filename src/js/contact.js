@@ -9,6 +9,7 @@ function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 15,
         center: uluru,
+        gestureHandling: 'greedy',
         styles: [
 				  {
 				    "elementType": "geometry",
@@ -207,7 +208,7 @@ function initMap() {
 				    });
     
     var icon = {
-        url: "img/map-marker.png", // url
+        url: "/wp-content/themes/sandler/assets/img/map-marker.png", // url
         // size: new google.maps.Size(200, 150),
         // scaledSize: new google.maps.Size(200, 150), // scaled size
         origin: new google.maps.Point(0, 0), // origin

@@ -12,7 +12,14 @@
     <?php include_once('includes/svg-sprite.php');?>
 
     <div class="container">
+        <div class="page-heading-wrap yulia-page-heading-wrap">
+            <h1 class="page-heading">MEET YULIA</h1>
+            <div class="page-heading__stick"></div>
+        </div>
         <div class="yulia-content line-bottom">
+            <div class="yulia-image">
+                <!-- <img src="img/yulia/yulia_photo.jpg" alt="photo" class="yulia-image__image"> -->
+            </div>
             <div class="yulia-info">
                 <h1 class="yulia-info__heading">MEET YULIA</h1>
                 <p class="yulia-info__text">
@@ -39,9 +46,6 @@
                         </li>
                     </ul>
                 </div>
-            </div>
-            <div class="yulia-image">
-                <!-- <img src="img/yulia/yulia_photo.jpg" alt="photo" class="yulia-image__image"> -->
             </div>
         </div>
     </div>

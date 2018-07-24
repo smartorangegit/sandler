@@ -83,7 +83,7 @@
                             <svg><use xlink:href="#down-arrow"></use></svg>
                     </div>
                     <div class="page-block-1__button-wrap animated-block-js fade">
-                        <a href="#" class="button_black page-block-1__button">
+                        <a href="#" class="button_black page-block-1__button form-show-js">
                             Записаться on-line
                         </a>
                         <a href="#cosmetology" class="button_black page-block-1__button
@@ -126,7 +126,7 @@
                         </li>
                     </ul>
                     <div class="page-block-1__button-wrap animated-block-js fade">
-                        <a href="#" class="button_black page-block-1__button">
+                        <a href="#" class="button_black page-block-1__button form-show-js">
                             Записаться on-line
                         </a>
                         <a href="#massage" class="button_black page-block-1__button
@@ -149,7 +149,7 @@
                         </li>
                     </ul>
                     <div class="page-block-1__button-wrap animated-block-js fade">
-                        <a href="#" class="button_black page-block-1__button">
+                        <a href="#" class="button_black page-block-1__button form-show-js">
                             Записаться on-line
                         </a>
                         <a href="#cosmetology" class="button_black page-block-1__button
@@ -201,7 +201,7 @@
                         </li>
                     </ul>
                     <div class="page-block-1__button-wrap animated-block-js fade">
-                        <a href="#" class="button_black page-block-1__button">
+                        <a href="#" class="button_black page-block-1__button form-show-js">
                             Записаться on-line
                         </a>
                         <a href="#cosmetology" class="button_black page-block-1__button
@@ -257,7 +257,7 @@
                         <svg><use xlink:href="#down-arrow"></use></svg>
                     </div>
                     <div class="page-block-1__button-wrap animated-block-js fade">
-                        <a href="#" class="button_black page-block-1__button">
+                        <a href="#" class="button_black page-block-1__button form-show-js">
                             Записаться on-line
                         </a>
                         <a href="#cosmetology" class="button_black page-block-1__button
@@ -275,84 +275,104 @@
             <h2 class="people__heading">НАШИ СПЕЦИАЛИСТЫ</h2>
             <div id="massage" class="people-section massage-specialist animation-wrapper-js">
                 <h3 class="people-section__heading">МАССАЖ</h3>
-                <ul class="people-section-list">
-                    <li class="people-section-list__item">
-                        <div class="people-section-list-image">
-                            <img src="img/salon/people/people_1.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
-                            <a href="#" class="people-section-list__button">
-                                Записаться
-                            </a>
-                        </div>
-                        <p class="people-section-list__name">Максимович Мила</p>
-                        <p class="people-section-list__position">арт директор, стилист парикмахер</p>
-                    </li>
-                    <li class="people-section-list__item">
-                        <div class="people-section-list-image">
-                            <img src="img/salon/people/people_2.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
-                            <a href="#" class="people-section-list__button">
-                                Записаться
-                            </a>
-                        </div>
-                        <p class="people-section-list__name">Максимович Мила</p>
-                        <p class="people-section-list__position">арт директор, стилист парикмахер</p>
-                    </li>
-                    <li class="people-section-list__item">
-                        <div class="people-section-list-image">
-                            <img src="img/salon/people/people_3.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
-                            <a href="#" class="people-section-list__button">
-                                Записаться
-                            </a>
-                        </div>
-                        <p class="people-section-list__name">Максимович Мила</p>
-                        <p class="people-section-list__position">арт директор, стилист парикмахер</p>
-                    </li>
-                    <li class="people-section-list__item">
-                        <div class="people-section-list-image">
-                            <img src="img/salon/people/people_3.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
-                            <a href="#" class="people-section-list__button">
-                                Записаться
-                            </a>
-                        </div>
-                        <p class="people-section-list__name">Максимович Мила</p>
-                        <p class="people-section-list__position">арт директор, стилист парикмахер</p>
-                    </li>
-                </ul>
+                <div class="people-slider-wrap">
+                    <ul class="people-section-list massage-slider">
+                        <li class="people-section-list__item">
+                            <div class="people-section-list-image">
+                                <img src="img/salon/people/people_1.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
+                                <a href="#" class="people-section-list__button form-show-js">
+                                    Записаться
+                                </a>
+                            </div>
+                            <p class="people-section-list__name">Максимович Мила</p>
+                            <p class="people-section-list__position">арт директор, стилист парикмахер</p>
+                        </li>
+                        <li class="people-section-list__item">
+                            <div class="people-section-list-image">
+                                <img src="img/salon/people/people_2.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
+                                <a href="#" class="people-section-list__button form-show-js">
+                                    Записаться
+                                </a>
+                            </div>
+                            <p class="people-section-list__name">Максимович Мила</p>
+                            <p class="people-section-list__position">арт директор, стилист парикмахер</p>
+                        </li>
+                        <li class="people-section-list__item">
+                            <div class="people-section-list-image">
+                                <img src="img/salon/people/people_3.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
+                                <a href="#" class="people-section-list__button form-show-js">
+                                    Записаться
+                                </a>
+                            </div>
+                            <p class="people-section-list__name">Максимович Мила</p>
+                            <p class="people-section-list__position">арт директор, стилист парикмахер</p>
+                        </li>
+                        <li class="people-section-list__item">
+                            <div class="people-section-list-image">
+                                <img src="img/salon/people/people_3.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
+                                <a href="#" class="people-section-list__button form-show-js">
+                                    Записаться
+                                </a>
+                            </div>
+                            <p class="people-section-list__name">Максимович Мила</p>
+                            <p class="people-section-list__position">арт директор, стилист парикмахер</p>
+                        </li>
+                    </ul>
+                    <button class="page-slider__button people-slider__button_prev massage-slider_prev">
+                        <span class="page-slider__button-text">Prev</span>
+                        <svg class="page-slider__button-icon long-arrow_revers"><use xlink:href="#long-arrow"></use></svg>
+                    </button>
+                    <button class="page-slider__button people-slider__button_next massage-slider_next">
+                        <span class="page-slider__button-text">Next</span>
+                        <svg class="page-slider__button-icon"><use xlink:href="#long-arrow"></use></svg>
+                    </button>
+                </div>
             </div>
 
             <div id="cosmetology" class="people-section cosmetology-specialist animation-wrapper-js">
                 <h3 class="people-section__heading">КОСМЕТОЛОГИЯ ЛИЦА И ТЕЛА</h3>
-                <ul class="people-section-list">
-                    <li class="people-section-list__item">
-                        <div class="people-section-list-image">
-                            <img src="img/salon/people/people_1.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
-                            <a href="#" class="people-section-list__button">
-                                Записаться
-                            </a>
-                        </div>
-                        <p class="people-section-list__name">Максимович Мила</p>
-                        <p class="people-section-list__position">арт директор, стилист парикмахер</p>
-                    </li>
-                    <li class="people-section-list__item">
-                        <div class="people-section-list-image">
-                            <img src="img/salon/people/people_2.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
-                            <a href="#" class="people-section-list__button">
-                                Записаться
-                            </a>
-                        </div>
-                        <p class="people-section-list__name">Максимович Мила</p>
-                        <p class="people-section-list__position">арт директор, стилист парикмахер</p>
-                    </li>
-                    <li class="people-section-list__item">
-                        <div class="people-section-list-image">
-                            <img src="img/salon/people/people_3.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
-                            <a href="#" class="people-section-list__button">
-                                Записаться
-                            </a>
-                        </div>
-                        <p class="people-section-list__name">Максимович Мила</p>
-                        <p class="people-section-list__position">арт директор, стилист парикмахер</p>
-                    </li>
-                </ul>
+                <div class="people-slider-wrap">
+                    <ul class="people-section-list cosmetology-slider">
+                        <li class="people-section-list__item">
+                            <div class="people-section-list-image">
+                                <img src="img/salon/people/people_1.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
+                                <a href="#" class="people-section-list__button form-show-js">
+                                    Записаться
+                                </a>
+                            </div>
+                            <p class="people-section-list__name">Максимович Мила</p>
+                            <p class="people-section-list__position">арт директор, стилист парикмахер</p>
+                        </li>
+                        <li class="people-section-list__item">
+                            <div class="people-section-list-image">
+                                <img src="img/salon/people/people_2.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
+                                <a href="#" class="people-section-list__button form-show-js">
+                                    Записаться
+                                </a>
+                            </div>
+                            <p class="people-section-list__name">Максимович Мила</p>
+                            <p class="people-section-list__position">арт директор, стилист парикмахер</p>
+                        </li>
+                        <li class="people-section-list__item">
+                            <div class="people-section-list-image">
+                                <img src="img/salon/people/people_3.jpg" alt="photo" class="people-section-list__image animated-block-js flip">
+                                <a href="#" class="people-section-list__button form-show-js">
+                                    Записаться
+                                </a>
+                            </div>
+                            <p class="people-section-list__name">Максимович Мила</p>
+                            <p class="people-section-list__position">арт директор, стилист парикмахер</p>
+                        </li>
+                    </ul>
+                    <button class="page-slider__button people-slider__button_prev cosmetology-slider_prev">
+                        <span class="page-slider__button-text">Prev</span>
+                        <svg class="page-slider__button-icon long-arrow_revers"><use xlink:href="#long-arrow"></use></svg>
+                    </button>
+                    <button class="page-slider__button people-slider__button_next cosmetology-slider_next">
+                        <span class="page-slider__button-text">Next</span>
+                        <svg class="page-slider__button-icon"><use xlink:href="#long-arrow"></use></svg>
+                    </button>
+                </div>
             </div>
         </div>
 

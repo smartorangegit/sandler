@@ -1,4 +1,4 @@
-
+    <?php include_once('includes/popup-form.php');?>
 <header class="header">
     <div class="container header__container">
         <div class="header-mobile">
@@ -6,7 +6,7 @@
                 <p class="menu-open__text">Menu</p>
                 <div class="menu-line-wrap">
                     <div class="menu-line menu-line_1"></div>
-                    <div class="menu-line menu-line_2"></div>                
+                    <div class="menu-line menu-line_2"></div>
                     <div class="menu-line menu-line_3"></div>
                 </div>                               
             </div>

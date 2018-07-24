@@ -1,0 +1,47 @@
+@media screen and (max-width: 1000px) {
+	.yulia-page-heading-wrap {
+		display: block;
+	}
+	.yulia-info__heading {
+		display: none;
+	}
+	.yulia-info {
+		position: relative;
+		width: 100%;
+		transform: none;
+	}
+	.yulia-content {
+		flex-wrap: wrap;
+		padding-top: 0;
+		padding-bottom: 10px;
+	}
+	.yulia-image {
+		width: 100%;
+		height: 500px;
+		background-position: center -155px;
+	}
+	.yulia-info__text {
+		background-color: #fff;
+		color: #000;
+		margin-bottom: 0;
+		padding: 20px 5px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.yulia-image {
+		height: 185px;
+		background-position: center -50px;
+	}
+	.yulia-info__text {
+		background-color: #fff;
+		color: #000;
+		margin-bottom: 0;
+		padding: 20px 5px;
+	}
+	.yulia-info-contact {
+		width: 100%;
+		margin-left: 0;
+		justify-content: center;
+	}
+}

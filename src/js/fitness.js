@@ -1,46 +1,45 @@
 if($("body").width() < 600) {
-	$('.hair-slider').slick({
+	$('.dance-slider').slick({
 	    autoplay: false,
 	    slidesToShow: 1,
 	    slidesToScroll: 1,
 	    speed: 1000,
 	    autoplaySpeed: 500,
 	    arrows: true,
-	    prevArrow: '.hair-slider_prev',
-		nextArrow: '.hair-slider_next',
+	    prevArrow: '.dance-slider_prev',
+		nextArrow: '.dance-slider_next',
 	});
 
-	$('.visage-slider').slick({
+	$('.fitness-slider').slick({
 	    autoplay: false,
 	    slidesToShow: 1,
 	    slidesToScroll: 1,
 	    speed: 1000,
 	    autoplaySpeed: 500,
 	    arrows: true,
-	    prevArrow: '.visage-slider_prev',
-		nextArrow: '.visage-slider_next',
+	    prevArrow: '.fitness-slider_prev',
+		nextArrow: '.fitness-slider_next',
 	});
 
-	$('.nails-slider').slick({
+	$('.pilates-slider').slick({
 	    autoplay: false,
 	    slidesToShow: 1,
 	    slidesToScroll: 1,
 	    speed: 1000,
 	    autoplaySpeed: 500,
 	    arrows: true,
-	    prevArrow: '.nails-slider_prev',
-		nextArrow: '.nails-slider_next',
+	    prevArrow: '.pilates-slider_prev',
+		nextArrow: '.pilates-slider_next',
 	});
 
-	$('.stylist-slider').slick({
+	$('.jumps-slider').slick({
 	    autoplay: false,
 	    slidesToShow: 1,
 	    slidesToScroll: 1,
 	    speed: 1000,
 	    autoplaySpeed: 500,
 	    arrows: true,
-	    prevArrow: '.stylist-slider_prev',
-		nextArrow: '.stylist-slider_next',
+	    prevArrow: '.jumps-slider_prev',
+		nextArrow: '.jumps-slider_next',
 	});
 }
-

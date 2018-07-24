@@ -9,6 +9,7 @@
 </head>
 <body>
     <?php include_once('includes/home-header.php');?>
+    <?php include_once('includes/preloader.php');?>
 
     <div class="home_overflow">
         <section class="home__section home__section_1 animation-wrapper-js">

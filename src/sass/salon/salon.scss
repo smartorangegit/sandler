@@ -3,3 +3,17 @@
 	height: 700px;
 	margin-bottom: 65px;
 }
+
+@media screen and (max-width: 900px) {
+	.salon-slider-wrap {
+		height: 480px;
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.salon-slider-wrap {
+		height: auto;
+		margin-bottom: 15px;
+	}
+}

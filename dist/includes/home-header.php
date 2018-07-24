@@ -3,11 +3,11 @@
     <div class="container header__container">
         <div class="header-mobile">
             <div class="menu-open">
-                <p class="menu-open__text">Menu</p>
+                <p class="menu-open__text menu-open__text_black">Menu</p>
                 <div class="menu-line-wrap">
-                    <div class="menu-line menu-line_1"></div>
-                    <div class="menu-line menu-line_2"></div>                
-                    <div class="menu-line menu-line_3"></div>
+                    <div class="menu-line menu-line_black menu-line_1"></div>
+                    <div class="menu-line menu-line_black menu-line_2"></div>
+                    <div class="menu-line menu-line_black menu-line_3"></div>
                 </div>                               
             </div>
             <svg class="header-mobile__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"

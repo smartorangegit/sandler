@@ -1,6 +1,6 @@
 .restaurant-wrap {
 	position: relative;
-	height: 100vh;
+	height: calc(100vh - 60px);
 	background: url(../img/restaurant/restoran-bg.jpg) center center no-repeat;
 	background-size: cover;
 }
@@ -9,6 +9,8 @@
 	@extend %absolute-center_h;
 	bottom: 0;
 	background-color: transparent;
+	padding: 0;
+	padding-bottom: 35px;
 }
 
 .restaurant__content {

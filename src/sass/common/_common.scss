@@ -283,10 +283,13 @@ body {
 	z-index: 1;
 	transition: all 0.4s;
 	cursor: pointer;
+    overflow: hidden;
 
 	&:after {
-		@extend %absolute-center;
-		width: 99.5%;
+		@extend %absolute-center_v;
+        right: 0;
+        left: 0;
+		width: 100%;
 		height: 0%;
 		background-color: #fff;
 		content: " ";
@@ -300,7 +303,7 @@ body {
 	}
 
 	&:hover:after {
-		height: 99.5%;
+		height: 102%;
 	}
 }
 
@@ -321,11 +324,14 @@ body {
 	cursor: pointer;
 	z-index: 1;
     transition: all 0.4s;
+    overflow: hidden;
 
 	&:after {
-		@extend %absolute-center;
-		width: 99.5%;
-		height: 0%;
+		@extend %absolute-center_v;
+		right: 0;
+        left: 0;
+        width: 100%;
+        height: 0%;
 		background-color: #000;
 		content: " ";
 		transition: all 0.4s;
@@ -338,7 +344,7 @@ body {
 	}
 
 	&:hover:after {
-		height: 99.5%;
+		height: 102%;
 	}
 }
 // end__buttons
@@ -693,6 +699,20 @@ body {
     0% {right: -100%;}
     50% {right: 0; height: 100%;}
     100% {right: 0; height: 50px;}
+}
+
+.people-slider-wrap {
+    position: relative;
+}
+.people-slider__button {
+    &_next {
+        display: none;
+        right: -10px;
+    }
+    &_prev {
+        display: none;
+        left: -10px;
+    }
 }
 // end__people
 

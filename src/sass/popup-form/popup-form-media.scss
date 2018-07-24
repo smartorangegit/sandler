@@ -1,0 +1,22 @@
+@media screen and (max-width: 599px) {
+	.popup-form {
+		&-content {
+			width: 300px;
+		}
+
+		&__heading {
+			font-size: 18/16*1rem;
+		}
+
+		&__input {
+			font-size: 14/16*1rem;
+		}
+
+		&__time {
+			.picker__holder {
+				left: -10px;
+			}
+		}
+	
+	}
+}

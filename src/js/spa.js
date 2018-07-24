@@ -10,3 +10,28 @@ $(".list__more").on("click", function() {
     }
 });
 // end show full list
+
+if($("body").width() < 600) {
+	$('.massage-slider').slick({
+	    autoplay: false,
+	    slidesToShow: 1,
+	    slidesToScroll: 1,
+	    speed: 1000,
+	    autoplaySpeed: 500,
+	    arrows: true,
+	    prevArrow: '.massage-slider_prev',
+		nextArrow: '.massage-slider_next',
+	});
+
+	$('.cosmetology-slider').slick({
+	    autoplay: false,
+	    slidesToShow: 1,
+	    slidesToScroll: 1,
+	    speed: 1000,
+	    autoplaySpeed: 500,
+	    arrows: true,
+	    prevArrow: '.cosmetology-slider_prev',
+		nextArrow: '.cosmetology-slider_next',
+	});
+}
+

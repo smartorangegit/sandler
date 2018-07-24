@@ -26,22 +26,14 @@
 	}
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 600px) {
 	.home__section {
 		height: 175px;
-	}
-	.home-block_top {
-		top: 55%;
-		width: 205px;
-	}
-	.home-block_top__text {
-		font-size: 17/16*1rem;
-		margin-left: 12px;	
-		letter-spacing: 1px;
 	}
 
 	.home-block {
 		padding: 10px 8px 10px 8px;
+		border: 1px solid #fff;
 
 		&_2 {
 			right: 4%;
@@ -53,13 +45,16 @@
 		&_4 {
 			width: 180px;
 			left: 4%;
+			border: 1px solid #000;
 		}
 		&_5_1 {
 			left: 9%;
 			top: 50%;
+			border: 1px solid #000;
 		}
 		&_5_2 {
 			right: 4%;
+			border: 1px solid #000;
 		}
 		&_6 {
 			right: 4%;
@@ -79,6 +74,17 @@
 		margin-left: 12px;
 		margin-bottom: 8px;
 		border-bottom-width: 1px;
+	}
+
+	.home-block_top {
+		top: 55%;
+		width: 205px;
+		border: none;
+	}
+	.home-block_top__text {
+		font-size: 17/16*1rem;
+		margin-left: 12px;	
+		letter-spacing: 1px;
 	}
 
 	.home-slider {

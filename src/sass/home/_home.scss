@@ -55,6 +55,7 @@
     font-family: $helvetica;
     font-size: 280/16*1rem;
     color: #000;
+    z-index: 2;
 
     &-S {
         bottom: 20%;
@@ -381,16 +382,16 @@
         padding: 55px 25px 60px 25px;
 
         &__line_1_1 {
-            right: -160px;
-            top: 15px;
+            right: -158px;
+            top: 17px;
             width: 210px;
             transform: rotate(-60deg);
         }
         &__line_1_2 {
             left: 110px;
-            bottom: -80px;
+            bottom: -75px;
             width: 180px;
-            transform: rotate(-60deg);
+            transform: rotate(-55deg);
         }
     }
 
@@ -410,6 +411,7 @@
 
             &_bg_black {
                 background-color: #000;
+                display: inline-block;
             }
         }
 
@@ -456,18 +458,14 @@
 .home__first-letter {
     stroke: #000;
     fill: transparent;
-    stroke-dasharray: 300; 
-    stroke-dashoffset: -300px;
-    animation: letterDraw 1.6s forwards;
-}
-@keyframes letterDraw {
-    0% {stroke-dashoffset: -300px; fill: transparent;}
-    90% {fill: transparent;}
-    100% {stroke-dashoffset: 0; fill: #000;}
+    stroke-dasharray: 320; 
+    stroke-dashoffset: 320;
+    animation: letterDraw 1.5s 2s forwards;
+    // keyframes locate in animation-class.scss file
 }
 
 .home-block_top__heading, .home-block_top__text {
-    transition: transform 0.7s 1.2s, opacity 0.7s 1.2s;
+    transition: transform 0.7s 3s, opacity 0.7s 3s;
 }
 
 .home-block__content {

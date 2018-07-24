@@ -29,7 +29,11 @@ gulp.task('all-js', function() {
 // Common
 gulp.task('common-js', function() {
 	return gulp.src([
-		'src/js/libs/slick.min.js',
+		'src/js/libs/*.js',
+		'src/js/libs/datapicker/picker.js',
+		'src/js/libs/datapicker/picker.date.js',
+		'src/js/libs/datapicker/picker.time.js',
+		'src/js/libs/datapicker/ru_RU.js',
 		'src/js/common.js',
 		])
 	.pipe(concat('common.min.js'))
@@ -104,6 +108,28 @@ gulp.task('contact-js', function() {
 });
 // contact end
 
+// fitness start
+gulp.task('fitness-js', function() {
+	return gulp.src([
+		'src/js/fitness.js',
+		])
+	.pipe(concat('fitness.min.js'))
+	.pipe(uglify())
+	.pipe(gulp.dest('dist/js'));
+});
+// fitness end
+
+// photo-studio start
+gulp.task('photo-studio-js', function() {
+	return gulp.src([
+		'src/js/photo-studio.js',
+		])
+	.pipe(concat('photo-studio.min.js'))
+	.pipe(uglify())
+	.pipe(gulp.dest('dist/js'));
+});
+// photo-studio end
+
 gulp.task('js', [
 	'common-js',
 	'home-js',
@@ -111,7 +137,9 @@ gulp.task('js', [
 	'salon-js',
 	'spa-js',
 	'clinic-js',
-	'contact-js',
+	'fitness-js',
+	'photo-studio-js',
+	'contact-js'
 	], function() {
 	return gulp.src([
 		'src/js/common.js',

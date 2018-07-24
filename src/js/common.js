@@ -9,14 +9,14 @@ window.addEventListener("scroll", function() {
 // end__fixed_menu
 
 // animation on scroll
-var animationArr = ["fade", "slide-left", "slide-right",  
+var animationsArr = ["fade", "slide-left", "slide-right",  
                 "slide-top", "slide-bottom", "letter-draw",
                 "border-draw_white", "border-draw_black", "home-line-2", 
                 "home-line-3", "home-line-4", "home-line-5_1",
                 "home-line-5_2", "home-line-6", "home-line-7", "flip",
                 "height"];
 
-function animationOnScroll(animationList) { 
+function animationOnScroll(animationsList) { 
     var elements = document.querySelectorAll(".animation-wrapper-js");
     var arrElement = [];
     var arrDescendants = [];
@@ -25,32 +25,65 @@ function animationOnScroll(animationList) {
         arrElement.push(elements[i]);
     });
 
+    function addAnimations() {
+        window.addEventListener("scroll", function() {
+            arrElement.forEach(function(item, i) {
+                if(item.getBoundingClientRect().top < 500 && item.getBoundingClientRect().top > 100) {
 
-    window.addEventListener("scroll", function() {
-        arrElement.forEach(function(item, i) {
-            if(item.getBoundingClientRect().top < 500 && item.getBoundingClientRect().top > 300) {
+                    var colDescendants = item.getElementsByTagName('*');
 
-                var colDescendants = item.getElementsByTagName('*');
-
-                for(var k = 0; k < colDescendants.length; k++) {
-                    if(colDescendants[k].classList.contains("animated-block-js")) {
-                        arrDescendants.push(colDescendants[k]);
-                    }
-                }
-
-                //add class for animation
-                for (var j = 0; j < animationList.length; j++) {
-                    arrDescendants.forEach(function(item, i) {
-                        if(item.classList.contains(animationList[j])) {
-                            item.classList.add(animationList[j] + "-in");
+                    for(var k = 0; k < colDescendants.length; k++) {
+                        if(colDescendants[k].classList.contains("animated-block-js")) {
+                            arrDescendants.push(colDescendants[k]);
                         }
-                    });
+                    }
+
+                    //add class for animation
+                    for (var j = 0; j < animationsList.length; j++) {
+                        arrDescendants.forEach(function(item, i) {
+                            if(item.classList.contains(animationsList[j])) {
+                                item.classList.add(animationsList[j] + "-in");
+                            }
+                        });
+                    }
+
+                }
+            });
+        });
+    }
+
+    function removeAnimations() {
+        arrElement.forEach(function(item, i) {
+            var colDescendants = item.getElementsByTagName('*');
+
+            for(var k = 0; k < colDescendants.length; k++) {
+                if(colDescendants[k].classList.contains("animated-block-js")) {
+                    arrDescendants.push(colDescendants[k]);
                 }
             }
+
+            //remove class for animation
+            for (var j = 0; j < animationsList.length; j++) {
+                arrDescendants.forEach(function(item, i) {
+                    if(item.classList.contains(animationsList[j])) {
+                        item.classList.remove(animationsList[j]);
+                    }
+                });
+            }
         });
-    });
+    }
+
+    return {
+        addAnimations: addAnimations,
+        removeAnimations: removeAnimations
+    }
 }
-animationOnScroll(animationArr); 
+
+if(document.documentElement.clientWidth > 599) {
+    animationOnScroll(animationsArr).addAnimations();
+} else {
+    animationOnScroll(animationsArr).removeAnimations();
+}
 // end__animation on scroll
 
 // page-slider
@@ -66,6 +99,31 @@ $('.page-slider').slick({
     dots: true
 });
 // end__page-slider
+
+// popup-form
+$(".popup-form__input_phone").mask("+38 (099) 999-9999");
+$('.popup-form__input_date').pickadate({
+    format: 'yyyy-mm-dd',
+    formatSubmit: 'yyyy-mm-dd',
+    selectYears: true,
+    selectMonths: true
+});
+$('.popup-form__input_time').pickatime({
+    format: 'HH:i',
+    min: [8,0],
+    max: [20,0]
+});
+
+
+$(".form-show-js").on("click", function(e) {
+    e.preventDefault();
+    $(".popup-form-container").fadeIn(); 
+
+});
+$(".popup-form__icon").on("click", function(e) {
+    $(".popup-form-container").fadeOut(); 
+});
+// end__popup-form
 
 // open_sub-list
 $(".page-block-1-list__text").on("click", function() {
@@ -117,6 +175,7 @@ $(".menu-open").on("click", function() {
     $(".menu-line-wrap").css("display", "none");
     $(".home-header").css("background-color", "#000");
     $(".header__link").fadeOut();
+    $(".menu-open__text_black").css("color", "#fff");
 });
 $(".header-mobile__icon").on("click", function() {
     $(".nav-wrapper").slideUp();
@@ -125,7 +184,26 @@ $(".header-mobile__icon").on("click", function() {
     $(".menu-open__text").css("font-size", "6px");
     $(".home-header").css("background-color", "rgba(0,0,0,0.3)");
     $(".header__link").fadeIn();
+    $(".menu-open__text_black").css("color", "#000");
 });
 // end__header-mobile
+
+//preloader
+function preloader() {
+    $(window).on("load", function() {
+       setTimeout(function() {
+          $(".preloader-wrap").fadeOut();
+        }, 1000);
+    });
+}
+
+if(!sessionStorage.getItem('preloaderRan')) {
+    preloader();
+} else {
+    $(".preloader-wrap").css("display", "none");
+}
+sessionStorage.setItem('preloaderRan', true);
+//end__preloader
+
 
 

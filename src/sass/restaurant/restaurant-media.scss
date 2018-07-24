@@ -1,0 +1,33 @@
+
+@media screen and (max-width: 767px) {
+	.restaurant-wrap {
+		height: auto;
+	}
+
+	.restaurant-footer {
+		position: relative;
+	}
+
+	.restaurant__content {
+		width: 100%;
+		position: relative;
+		margin-top: 20px;
+		transform: none;
+	}
+
+	.restaurant__heading {
+		font-size: 36/16*1rem;
+		line-height: 1.5;
+		margin-left: 7%;
+	}
+
+	.restaurant-contact {
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-bottom: 25px;
+	}
+
+	.restaurant-social {
+		width: 90%;
+	}
+}

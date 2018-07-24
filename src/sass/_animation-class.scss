@@ -61,15 +61,15 @@
 .letter-draw {
 	stroke: #000;
 	fill: transparent;
-	stroke-dasharray: 300; 
-	stroke-dashoffset: -300px;
+	stroke-dasharray: 320; 
+	stroke-dashoffset: 320px;
 }
 .letter-draw-in {
-	animation: letterDraw 1.6s forwards;
+	animation: letterDraw 1.5s forwards;
 }
 @keyframes letterDraw {
-	0% {stroke-dashoffset: -300px;fill: transparent;}
-	90% {fill: transparent;}
+	0% {stroke-dashoffset: 320px;fill: transparent;}
+	85% {fill: transparent;}
 	100% {stroke-dashoffset: 0; fill: #000;}
 }
 /*//////////////////////////////////////*/
@@ -242,8 +242,8 @@
 }
 .home-line-7-in {
 	opacity: 1;
-	right: -160px;
-    top: 15px;
+	right: -158px;
+    top: 17px;
 }
 /*//////////////////////////////////////*/
 
