@@ -3,6 +3,23 @@ body {
 	font-size: 1rem;
 }
 
+.thanks-container {
+    width: 50%;
+    /*height: 100vh;*/
+    margin: 0 auto;
+    display: flex;
+    align-item: center;
+    justify-content: center;
+}
+.thanks__heading {
+    line-height: calc(100vh - 250px);
+    font-size: 8rem;
+    font-family: $helvetica;
+    color: #000;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
 .container {
 	width: 1190px;
 	margin: 0 auto;

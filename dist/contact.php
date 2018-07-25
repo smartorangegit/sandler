@@ -19,7 +19,7 @@
                 </div>
                 <p class="contact-info__text contact-info__text_margin_top">МЫ ВСЕГДА РАДЫ ВАМ</p>
                 <p class="contact-info__text">ПО АДРЕСУ: <span class="contact-info__text_bold">КИЕВ, МОСКОВСКАЯ, 27</span></p>
-                <p class="contact-info__text">И ПО НОМЕРУ: <span class="contact-info__text_bold"><a href="#" class="contact-info__tel">+3 8 044 288 58 88</a>, <a href="#" class="contact-info__tel contact-info__tel_2">+3 8 050 416 77 22</a></span></p>
+                <p class="contact-info__text">И ПО НОМЕРУ: <span class="contact-info__text_bold"><a href="tel: +380442885888" class="contact-info__tel">+3 8 044 288 58 88</a>, <a href="tel: +380504167722" class="contact-info__tel contact-info__tel_2">+3 8 050 416 77 22</a></span></p>
                 <p class="contact-info__text contact-info__text_arial">МЫ ЖДЕМ ВАС!</p>
             </div>
             <div class="contact-info-block_2">

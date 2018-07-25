@@ -27,6 +27,22 @@
 		color: #000;
 	}
 
+	&__input {
+		position: relative;
+		padding: 0 7px;
+		line-height: 25px;
+		border: 1px solid #000;
+		color: #000;
+		background-color: transparent;
+		font-family: $arialNarrow;
+		font-size: 1rem;
+		cursor: pointer;
+		z-index: 1;
+		transition: all 0.2s;
+		overflow: hidden;
+		color: #6e6e6e;
+	}
+
 	&__button {
 		position: relative;
 		padding: 0 7px;
@@ -34,7 +50,6 @@
 		border: 1px solid #000;
 		color: #000;
 		background-color: transparent;
-		outline: none;
 		font-family: $arialNarrow;
 		font-size: 1rem;
 		cursor: pointer;

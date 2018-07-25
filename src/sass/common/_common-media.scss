@@ -72,6 +72,10 @@
 }
 
 @media screen and (max-width: 768px) {
+	.thanks__heading {
+		font-size: 5rem;
+	}
+
 	.page-block-1__button-line {
 		display: none;
 	}
@@ -91,6 +95,10 @@
 }
 
 @media screen and (max-width: 600px) {
+	.thanks__heading {
+		font-size: 3rem;
+	}
+
 	.page-slider__image {
 		width: 100%;
 	}

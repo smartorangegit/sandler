@@ -50,7 +50,8 @@
                     <a class="footer__link footer__link_border" href="tel: +80504167722">050 416 77 22</a></span>
                 </span>
                 <div class="footer__button-wrap">
-                    <button class="footer__button footer__button_text_gray">Подписаться на рассылку</button>
+                    <!-- <button class="footer__button footer__button_text_gray">Подписаться на рассылку</button> -->
+                    <input type="text" class="footer__input" placeholder="Подписаться на рассылку">
                     <button class="footer__button footer__button_big_letter">ПОДПИСАТЬСЯ</button>
                 </div>
                 <ul class="social">

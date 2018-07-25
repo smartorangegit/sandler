@@ -145,7 +145,7 @@
             <div class="page-block-1-content">
                 <div class="page-block-1-content__info">
                     <ul class="page-block-1-list">
-                        <li class="page-block-1-list__item page-block-1-list__item_2 animated-block-js slide-left">
+                        <li class="page-block-1-list__item page-block-1-list__item_1 animated-block-js slide-left">
                             <span class="page-block-1-list__text triangle"> Маникюр</span>
                         </li>
                         <li class="page-block-1-list__item page-block-1-list__item_2 animated-block-js slide-left">
@@ -189,7 +189,7 @@
                             <span class="page-block-1-list__text triangle">Подготовка к фотопроекту</span>
                         </li>
                         <li class="page-block-1-list__item page-block-1-list__item_3 animated-block-js slide-right">
-                            <span class="page-block-1-list__text triangle"> Консультация стилиста, имидж-дизайнера/span>
+                            <span class="page-block-1-list__text triangle"> Консультация стилиста, имидж-дизайнера </span>
                         </li>
                         <li class="page-block-1-list__item page-block-1-list__item_4 animated-block-js slide-right">
                             <span class="page-block-1-list__text triangle">Шопинг-игра! Экспресс обновление</span>

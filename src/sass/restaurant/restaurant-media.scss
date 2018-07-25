@@ -2,6 +2,8 @@
 @media screen and (max-width: 767px) {
 	.restaurant-wrap {
 		height: auto;
+		min-height: 100vh;
+		position: relative;
 	}
 
 	.restaurant-footer {
@@ -11,8 +13,9 @@
 	.restaurant__content {
 		width: 100%;
 		position: relative;
-		margin-top: 20px;
+		margin-top: 20%;
 		transform: none;
+		// margin-bottom: 50%;
 	}
 
 	.restaurant__heading {
