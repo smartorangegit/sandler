@@ -99,28 +99,61 @@
                                 </li>
                                 <li class="page-block-1-list__item ">
                                     <span class="page-block-1-list__text dash triangle">вечерний</span>
-                                    <ul class="page-block-1-sublist">
-                                        <li class="page-block-1-list__item">
-                                            <span class="page-block-1-list__text dash">дневной</span>
-                                        </li>
-                                        <li class="page-block-1-list__item">
-                                            <span class="page-block-1-list__text dash">вечерний</span>
-                                        </li>
-                                        <li class="page-block-1-list__item">
-                                            <span class="page-block-1-list__text dash">экспресс</span>
-                                        </li>
-                                    </ul>
+                                    <div class="page-block-1-list__info">
+                                        <p class="page-block-1-list__descript">
+                                            Красиво изогнутые брови придают женскому лицу неповторимое очарование. Однако бровями, идеальными от природы могут похвастаться немногие. Мастера стдии стиля Sandler сдеалют ваши брови идеальными.
+                                        </p>
+                                        <p class="page-block-1-list__text page-block-1-list__text_bold">
+                                            Эксперт - 2500 грн.
+                                        </p>
+                                        <p class="page-block-1-list__text page-block-1-list__text_bold">
+                                            Мастер - 1500 грн.
+                                        </p>
+                                    </div>
                                 </li>
                                 <li class="page-block-1-list__item">
                                     <span class="page-block-1-list__text dash">экспресс</span>
+                                    <div class="page-block-1-list__info">
+                                        <p class="page-block-1-list__descript">
+                                            Красиво изогнутые брови придают женскому лицу неповторимое очарование. Однако бровями, идеальными от природы могут похвастаться немногие. Мастера стдии стиля Sandler сдеалют ваши брови идеальными.
+                                        </p>
+                                        <p class="page-block-1-list__text page-block-1-list__text_bold">
+                                            Эксперт - 2500 грн.
+                                        </p>
+                                        <p class="page-block-1-list__text page-block-1-list__text_bold">
+                                            Мастер - 1500 грн.
+                                        </p>
+                                    </div>
                                 </li>
                             </ul>
                         </li>
                         <li class="page-block-1-list__item page-block-1-list__item_2 animated-block-js slide-right">
                             <span class="page-block-1-list__text triangle">Ресницы</span>
+                            <div class="page-block-1-list__info">
+                                <p class="page-block-1-list__descript">
+                                    Красиво изогнутые брови придают женскому лицу неповторимое очарование. Однако бровями, идеальными от природы могут похвастаться немногие. Мастера стдии стиля Sandler сдеалют ваши брови идеальными.
+                                </p>
+                                <p class="page-block-1-list__text page-block-1-list__text_bold">
+                                    Эксперт - 2500 грн.
+                                </p>
+                                <p class="page-block-1-list__text page-block-1-list__text_bold">
+                                    Мастер - 1500 грн.
+                                </p>
+                            </div>
                         </li>
                         <li class="page-block-1-list__item page-block-1-list__item_3 animated-block-js slide-right">
                             <span class="page-block-1-list__text triangle"> Брови</span>
+                            <div class="page-block-1-list__info">
+                                <p class="page-block-1-list__descript">
+                                    Красиво изогнутые брови придают женскому лицу неповторимое очарование. Однако бровями, идеальными от природы могут похвастаться немногие. Мастера стдии стиля Sandler сдеалют ваши брови идеальными.
+                                </p>
+                                <p class="page-block-1-list__text page-block-1-list__text_bold">
+                                    Эксперт - 2500 грн.
+                                </p>
+                                <p class="page-block-1-list__text page-block-1-list__text_bold">
+                                    Мастер - 1500 грн.
+                                </p>
+                            </div>
                         </li>
                         <li class="page-block-1-list__item page-block-1-list__item_4 animated-block-js slide-right">
                             <span class="page-block-1-list__text triangle">Урок макияжа</span>

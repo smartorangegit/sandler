@@ -468,6 +468,10 @@
     transition: transform 0.7s 3s, opacity 0.7s 3s;
 }
 
+.home__section {
+    transition: all 0.8s;
+}
+
 .home-block__content {
     transition: transform 0.7s 1.2s, opacity 0.7s 1.2s;
 }

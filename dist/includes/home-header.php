@@ -48,10 +48,18 @@
                 <li class="nav__item">
                     <a href="yulia.php" class="nav__link">meet yulia</a>
                 </li>
-                <li class="nav__item">
+                <li class="nav__item nav__item_border_bottom">
                     <a href="contact.php" class="nav__link">контакты</a>
                 </li>
-                <li class="nav__item">
+                <li class="nav__item nav__item_opacity nav__item_mobile">
+                    <a href="tel: +804428858881" class="nav__link nav__link_tel">044 288 58 881</a> 
+                    <a href="tel: +804428858881" class="nav__link nav__link_tel">044 288 58 881</a>  <br>
+                </li>
+                 <li class="nav__item nav__item_opacity nav__item_mobile">
+                    <span>ул. Московская 27</span> <br>
+                    <a href="contact.php" class="nav__link nav__link_lower">посмотреть на карте</a> 
+                </li>
+                <li class="nav__item nav__item_opacity">
                     <a href="#" class="nav__link">RU</a>/
                     <a href="#" class="nav__link nav__link_not-active">UA</a>
                 </li>

@@ -43,19 +43,59 @@
 	.nav-wrapper {
 		display: none;
 		width: 100%;
+		height: 100vh;
 		border-top: 5px solid #fff;
-		padding: 0 0 15px 12px;
+		padding: 0 0 15px 25px;
 	}
 	.nav {
 		flex-wrap: wrap;
 
 		&__item {
 			width: 100%;
-			margin-top: 15px;
+			margin-top: 20px;
+
+			&_mobile {
+				display: block;
+			}
+
+			&_border_bottom {
+				padding-bottom: 8px;
+				border-bottom: 3px solid #fff;
+			}
+
+			&_opacity {
+				opacity: 0.7;
+			}
 		}
 
 		&__link {
 			font-size: 1rem;
+
+			&_tel {
+				margin-right: 10px;
+
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+
+			&_lower {
+				display: inline-block;
+				text-transform: lowercase;
+				font-size: 0.8rem;
+				padding-top: 5px;
+				border-bottom: 1px solid #fff;
+			}
 		}
+	}
+}
+
+@media screen and (min-height: 320px) and (max-height: 500px) {
+	.nav-wrapper {
+		height: auto;
+	}
+
+	.nav__item {
+		margin-top: 7px;
 	}
 }

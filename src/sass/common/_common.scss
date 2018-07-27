@@ -437,6 +437,22 @@ body {
         &:hover {
             font-weight: 600;
         }
+
+        &_bold {
+            font-weight: bold;
+        }
+    }
+
+    &__info {
+        display: none;
+    }
+
+    &__descript {
+        font-size: 1rem;
+        font-family: $solomonNorm;
+        letter-spacing: 1px;
+        line-height: 1.5;
+        color: #818181;
     }
 }
 .page-block-1-list_botom_arrow {
