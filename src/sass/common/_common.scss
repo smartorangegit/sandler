@@ -423,8 +423,10 @@ body {
     &__item {
         cursor: pointer;
 
-        &:nth-child(n+11) {
-            display: none;
+        &_top {
+            &:nth-child(n+11) {
+                display: none;
+            }
         }
     }
 
@@ -655,13 +657,14 @@ body {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    // justify-content: space-between;
 
     &__item {
         position: relative;
         width: 26%;
         margin-bottom: 20px;
         text-align: center;
+        margin-right: 11%;
 
         &:before {
             position: absolute;
@@ -674,8 +677,11 @@ body {
 
         }
 
-        &:nth-child(3n):before {
-            display: none;
+        &:nth-child(3n) {
+            margin-right: 0;
+            &:before {
+                display: none;
+            }
         }
         &:last-child:before {
             display: none;

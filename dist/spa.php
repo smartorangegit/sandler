@@ -45,37 +45,37 @@
             <div class="page-block-1-content">
                 <div class="page-block-1-content__info">
                     <ul class="page-block-1-list page-block-1-list_botom_arrow">
-                        <li class="page-block-1-list__item page-block-1-list__item_1 animated-block-js slide-left">
+                        <li class="page-block-1-list__item page-block-1-list__item_1 page-block-1-list__item_top animated-block-js slide-left">
                             <span class="page-block-1-list__text triangle"> Anti-age THALGO</span>
                         </li>
-                        <li class="page-block-1-list__item page-block-1-list__item_2 animated-block-js slide-left">
+                        <li class="page-block-1-list__item page-block-1-list__item_2 page-block-1-list__item_top animated-block-js slide-left">
                             <span class="page-block-1-list__text triangle">Питание и увлажнение THALGO</span>
                         </li>
-                        <li class="page-block-1-list__item page-block-1-list__item_3 animated-block-js slide-left">
+                        <li class="page-block-1-list__item page-block-1-list__item_3 page-block-1-list__item_top animated-block-js slide-left">
                             <span class="page-block-1-list__text triangle"> Очищение THALGO</span>
                         </li>
-                        <li class="page-block-1-list__item page-block-1-list__item_4 animated-block-js slide-left">
+                        <li class="page-block-1-list__item page-block-1-list__item_4 page-block-1-list__item_top animated-block-js slide-left">
                             <span class="page-block-1-list__text triangle">Anti-age FORLLE’P</span>
                         </li>
-                        <li class="page-block-1-list__item page-block-1-list__item_5 animated-block-js slide-left">
+                        <li class="page-block-1-list__item page-block-1-list__item_5 page-block-1-list__item_top animated-block-js slide-left">
                             <span class="page-block-1-list__text triangle">Уход вокруг глаз THALGO</span>
                         </li>
-                        <li class="page-block-1-list__item page-block-1-list__item_6 animated-block-js slide-left">
+                        <li class="page-block-1-list__item page-block-1-list__item_6 page-block-1-list__item_top animated-block-js slide-left">
                             <span class="page-block-1-list__text triangle">Уход за лицом FORLLE’P</span>
                         </li>
-                        <li class="page-block-1-list__item page-block-1-list__item_7 animated-block-js slide-left">
+                        <li class="page-block-1-list__item page-block-1-list__item_7 page-block-1-list__item_top animated-block-js slide-left">
                             <span class="page-block-1-list__text triangle">Уход для мужчин</span>
                         </li>
-                        <li class="page-block-1-list__item page-block-1-list__item_8 animated-block-js slide-left">
+                        <li class="page-block-1-list__item page-block-1-list__item_8 page-block-1-list__item_top animated-block-js slide-left">
                             <span class="page-block-1-list__text triangle">Уход ERICSON</span>
                         </li>
-                        <li class="page-block-1-list__item page-block-1-list__item_9 animated-block-js slide-left">
+                        <li class="page-block-1-list__item page-block-1-list__item_9 page-block-1-list__item_top animated-block-js slide-left">
                             <span class="page-block-1-list__text triangle">HYDRA CLINIC от ERICSON LABORATOIRE</span>
                         </li>
-                        <li class="page-block-1-list__item page-block-1-list__item_10 animated-block-js slide-left">
+                        <li class="page-block-1-list__item page-block-1-list__item_10 page-block-1-list__item_top animated-block-js slide-left">
                             <span class="page-block-1-list__text triangle">Anti-age ERICSON LABORATOIRE</span>
                         </li>
-                        <li class="page-block-1-list__item">
+                        <li class="page-block-1-list__item page-block-1-list__item_top">
                             <span class="page-block-1-list__text triangle">Anti-age ERICSON LABORATOIRE</span>
                         </li>
                     </ul>
