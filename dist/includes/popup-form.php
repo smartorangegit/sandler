@@ -38,6 +38,18 @@
 			<div class="popup-form__time">
 				<input type="date" class="popup-form__input popup-form__input_time" placeholder="Время посещения">
 			</div>
+			<div class="popup-form__date">
+				<input type="date" class="popup-form__input popup-form__input_date" placeholder="Дата посещения2">
+			</div>
+			<div class="popup-form__time">
+				<input type="date" class="popup-form__input popup-form__input_time" placeholder="Время посещения2">
+			</div>
+			<div class="popup-form__date">
+				<input type="date" class="popup-form__input popup-form__input_date" placeholder="Дата посещения3">
+			</div>
+			<div class="popup-form__time">
+				<input type="date" class="popup-form__input popup-form__input_time" placeholder="Время посещения3">
+			</div>
 			<button class="button_black page-block-2__button_black  popup-form__submit">Отправить</button>
 		</form>
 	</div>

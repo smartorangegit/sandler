@@ -71,22 +71,22 @@
 		margin-bottom: 20px;
 		padding: 0 2px;
 		box-sizing: border-box;
-		white-space: nowrap;
+		// white-space: nowrap;
 		overflow: hidden;
 	}
-	&__heading_dots {
-		position: relative;
-		padding-right: 40px;
-		&:before {
-			position: absolute;
-			bottom: 0;
-			right: 0;
-			letter-spacing: 2px;
-			background-color: #fff;
-			content: "...";
-			z-index: 1;
-		}
-	}
+	// &__heading_dots {
+	// 	position: relative;
+	// 	padding-right: 40px;
+	// 	&:before {
+	// 		position: absolute;
+	// 		bottom: 0;
+	// 		right: 0;
+	// 		letter-spacing: 2px;
+	// 		background-color: #fff;
+	// 		content: "...";
+	// 		z-index: 1;
+	// 	}
+	// }
 
 	&__button {
 		font-family: $helveticaULight;
